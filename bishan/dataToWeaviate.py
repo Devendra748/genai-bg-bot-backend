@@ -28,16 +28,15 @@ def pushDataToWeaviate(data):
         "moduleConfig": {}
     }
 
-    # Create the class if it doesn't exist
-    if not client.schema.contains_class(WEAVIATE_CLASS_NAME):
-        class_obj = {
-            "class": WEAVIATE_CLASS_NAME,
-            "vectorizer": "none",
-            "moduleConfig": {}
-        }
+    # Create the class in Weaviate
+    try:
         client.schema.create_class(class_obj)
         print(f"Class '{WEAVIATE_CLASS_NAME}' created successfully.")
-
+    except weaviate.RequestError as e:
+        if e.status_code == 409:
+            print(f"Class '{WEAVIATE_CLASS_NAME}' already exists.")
+        else:
+            print(f"Error creating class: {e}")
 
 
     # Tokenize the input texts

@@ -59,11 +59,17 @@ json_sets = [
 },
 
 ]
-# dataJson=pushDataToWeaviate(json_sets)
 from fastapi import FastAPI
 from searchData import searchData
 app = FastAPI()
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
+def calculate_similarity(question1, question2):
+    vectorizer = CountVectorizer().fit_transform([question1, question2])
+    vectors = vectorizer.toarray()
+    similarity = cosine_similarity(vectors[0].reshape(1, -1), vectors[1].reshape(1, -1))
+    return similarity[0, 0]
 @app.post("/push_data_to_weaviate")
 def push_data_to_weaviate():
     # Call your pushDataToWeaviate function with the JSON data
@@ -77,8 +83,16 @@ def search_data(question: str, number: int):
     # Call your searchData function with the provided question and number
     search_result = searchData(question, number)
 
-    print("search_result",search_result)
-    return {"result": search_result}
+    return search_result
+def calculate_cosine_similarity(vector1, vector2):
+    # Assuming vector1 and vector2 are lists of floats
+    dot_product = sum(a * b for a, b in zip(vector1, vector2))
+    magnitude1 = sum(a**2 for a in vector1) ** 0.5
+    magnitude2 = sum(a**2 for a in vector2) ** 0.5
+    similarity = dot_product / (magnitude1 * magnitude2) if magnitude1 * magnitude2 != 0 else 0.0
+    percentage_similarity = round(similarity * 100, 2)
+    return percentage_similarity
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
