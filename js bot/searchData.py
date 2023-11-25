@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 from textToVactor import convertTextToVectors
 
 load_dotenv()
-WEAVIATE_CLUSTER_URL = "http://localhost:8080"
-WEAVIATE_CLASS_NAME = "JsbotPolitics"
+WEAVIATE_CLUSTER_URL = "http://afcc935cf00034eedb45a56f7cccc309-430761413.ap-south-1.elb.amazonaws.com"
+WEAVIATE_CLASS_NAME = "bot"
 
 
 # Weaviate configuration and Initialize the Weaviate client
