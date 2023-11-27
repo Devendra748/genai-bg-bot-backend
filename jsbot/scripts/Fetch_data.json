@@ -1,0 +1,1306 @@
+{
+    "deprecations": [],
+    "objects": [
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910932038,
+            "id": "00347b6b-e340-497b-ac17-b5d3a718d7a3",
+            "lastUpdateTimeUnix": 1700910932038,
+            "properties": {
+                "answer_English": "Some time ago, officials were directed to inspect the Giddi Bridge in Ramgarh thoroughly. A survey has been conducted, and soon the construction work of the bridge will commence to ensure the residents face no inconvenience or difficulties in the area. Continuous efforts are being made in this direction.",
+                "answer_Hindi": "कुछ समय पूर्व, गिद्दी पुल की बारीकी से जांच करने के लिए अधिकारियों को निर्देश दिए गए थे। एक सर्वे किया गया है, और जल्द ही पुल का निर्माण कार्य शुरू होगा ताकि क्षेत्रवासियों को किसी प्रकार की असुविधा या कठिनाई न हो। इस दिशा में सदैव प्रयासरत हैं।",
+                "question_English": "What directives were given to officials regarding the Giddi Bridge in Ramgarh, and what actions have been taken in response?",
+                "question_Hindi": "रामगढ़ में स्थित गिद्दी पुल के संबंध में अधिकारियों को कौन-कौन से निर्देश दिए गए थे, और इस पर क्या प्रतिक्रिया की गई है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910884969,
+            "id": "00ba5877-a4ef-4eab-9b58-8583ef1158b3",
+            "lastUpdateTimeUnix": 1700910884969,
+            "properties": {
+                "answer_English": "The Ujjwala Yojana has brought about significant positive changes in the lives of women in Hazaribagh Lok Sabha. They have gained freedom from traditional cooking methods, and the time saved is contributing to their overall well-being.",
+                "answer_Hindi": "उज्ज्वला योजना ने हजारीबाग लोकसभा की महिलाओं के जीवन में महत्वपूर्ण सकारात्मक परिवर्तन लाए हैं। उन्हें पारंपरिक विधियों से मुक्ति मिली है, और बचाया गया समय उनके समग्र कल्याण में योगदान कर रहा है।",
+                "question_English": "What positive changes have women experienced in their lives due to the Ujjwala Yojana in Hazaribagh Lok Sabha?",
+                "question_Hindi": "हजारीबाग लोकसभा में उज्ज्वला योजना के कारण महिलाओं के जीवन में कौन-कौन से सकारात्मक परिवर्तन हुए हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910896010,
+            "id": "025f3b53-3419-4fed-abcf-c583c6d4739c",
+            "lastUpdateTimeUnix": 1700910896010,
+            "properties": {
+                "answer_English": "The investment of ₹74 crores in the maintenance and construction of roads in Badkagaon, Hazaribagh Lok Sabha, will significantly benefit the residents in terms of transportation. With a total length of 67 km, these well-maintained and newly constructed roads will ensure smoother and safer traffic flow. This initiative is designed to enhance the overall connectivity and accessibility of the region, providing convenience to the local residents.",
+                "answer_Hindi": "₹74 करोड़ के निवेश से बड़कागांव, हजारीबाग लोकसभा में सड़कों की मरम्मत और निर्माण में निवेश से स्थानीय निवासियों को यातायात के संदर्भ में सांगतकार लाभ होगा। कुल लंबाई 67 किमी के साथ, इन सुजीवित और नई बनी सड़कों से सुनिश्चित होगा कि यातायात धारा सुगम और सुरक्षित हो। यह पहल क्षेत्र की कुल कनेक्टिविटी और पहुंच को बढ़ावा देने के लिए डिज़ाइन किया गया है, स्थानीय निवासियों को सुविधा प्रदान करते हुए।",
+                "question_English": "How will the investment of ₹74 crores in the maintenance and construction of roads in Badkagaon, Hazaribagh Lok Sabha, benefit the residents in terms of transportation?",
+                "question_Hindi": "₹74 करोड़ के निवेश से बड़कागांव, हजारीबाग लोकसभा में सड़कों की मरम्मत और निर्माण में निवेश से यातायात के संदर्भ में स्थानीय निवासियों को कैसे लाभ होगा?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910917740,
+            "id": "04a9ebd2-8aed-429b-aca9-775429a50dc0",
+            "lastUpdateTimeUnix": 1700910917740,
+            "properties": {
+                "answer_English": "The delivery of clean water to households in Hazaribagh Lok Sabha under the Jal Jeevan Mission has had a positive impact on the local community. It has not only improved the overall health and well-being of residents but also contributed to the fulfillment of basic needs for a hygienic and healthy lifestyle.",
+                "answer_Hindi": "जल जीवन मिशन के तहत हजारीबाग लोकसभा के घरों में शुद्ध जल पहुंचाने का स्थानीय समुदाय पर सकारात्मक प्रभाव हुआ है। इसने न केवल निवासियों के समग्र स्वास्थ्य और भलाइयों को सुधारा है, बल्कि स्वच्छ और स्वस्थ जीवनशैली के लिए आवश्यक आधारिक आवश्यकताओं के पूरा होने में भी योगदान किया है।",
+                "question_English": "How has the delivery of clean water to households in Hazaribagh Lok Sabha under the Jal Jeevan Mission impacted the local community?",
+                "question_Hindi": "जल जीवन मिशन के तहत हजारीबाग लोकसभा के घरों में शुद्ध जल पहुंचाने का स्थानीय समुदाय पर कैसा प्रभाव हुआ है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910882755,
+            "id": "063e8b5f-6cc2-44ea-b8bf-9af407dd0413",
+            "lastUpdateTimeUnix": 1700910882755,
+            "properties": {
+                "answer_English": "The Patratu Super Thermal Power Plant, with its capacity of 4000 megawatts, is expected to play a crucial role in ensuring 24*7 electricity availability in every household in Jharkhand. This initiative aligns with the vision of Prime Minister Narendra Modi for uninterrupted power supply to the residents.",
+                "answer_Hindi": "पतरातू सुपर थर्मल पॉवर प्लांट, जिसकी क्षमता 4000 मेगावाट है, का अपेक्षित है कि यह झारखंड के हर घर में 24*7 बिजली की उपलब्धता सुनिश्चित करने में महत्वपूर्ण भूमिका निभाएगा। यह पहल, प्रधानमंत्री नरेंद्र मोदी के आविष्कार के साथ मेल खाता है कि क्षेत्रवासियों को अविरल बिजली आपूर्ति की सुनिश्चिति के साथ है।",
+                "question_English": "How will the Patratu Super Thermal Power Plant contribute to providing 24*7 electricity to every household in Jharkhand?",
+                "question_Hindi": "पतरातू सुपर थर्मल पॉवर प्लांट कैसे 24*7 बिजली को झारखंड के हर घर में पहुंचाने में योगदान करेगा?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910925060,
+            "id": "0ed294b7-4ea3-4cf6-a6e6-4782900fd0e5",
+            "lastUpdateTimeUnix": 1700910925060,
+            "properties": {
+                "answer_English": "In the Dattopant Thengadi Job Fair in Ramgarh, 19 companies selected a total of 210 youths, and 462 youths were shortlisted for further processes. This demonstrates the substantial employment opportunities provided through the job fair.",
+                "answer_Hindi": "रामगढ़ में दत्तोपंत ठेंगड़ी रोजगार मेले में 19 कंपनियों ने कुल 210 युवाओं को चयनित किया, और 462 युवाओं को आगे की प्रक्रिया के लिए शॉर्टलिस्ट किया गया। इससे यह स्पष्ट होता है कि रोजगार मेला के माध्यम से किए गए योजना ने महत्वपूर्ण रोजगार के अवसर प्रदान किए हैं।",
+                "question_English": "How many youths were selected by the 19 companies participating in the Dattopant Thengadi Job Fair, and how many were shortlisted for further processes?",
+                "question_Hindi": "दत्तोपंत ठेंगड़ी रोजगार मेले में भाग लेने वाली 19 कंपनियों ने कुल कितने युवाओं को चयनित किया और कितने को आगे की प्रक्रिया के लिए शॉर्टलिस्ट किया?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910904118,
+            "id": "0fbe6d86-2759-4ba8-abf8-269fd361f0e9",
+            "lastUpdateTimeUnix": 1700910904118,
+            "properties": {
+                "answer_English": "Prime Minister Narendra Modi announced gifts for Jharkhand with projects worth more than 7,000 crores. These projects aim to contribute to the overall development of the state.",
+                "answer_Hindi": "मा. प्रधानमंत्री Narendra Modi जी ने 7,000 करोड़ से अधिक की मूल्य की परियोजनाओं के साथ झारखंड के लिए उपहार घोषित किए। इन परियोजनाओं का उद्देश्य राज्य के समग्र विकास में योगदान करना है।",
+                "question_English": "What projects did Prime Minister Narendra Modi announce as a gift for Jharkhand, and what is the total value of these projects?",
+                "question_Hindi": "मा. प्रधानमंत्री Narendra Modi जी ने झारखंड के लिए कौन-कौन सी परियोजनाएं घोषित की और इन परियोजनाओं की कुल मूल्य क्या है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910930251,
+            "id": "160b7ace-dd1f-4055-985b-c583d8be72f8",
+            "lastUpdateTimeUnix": 1700910930251,
+            "properties": {
+                "answer_English": "The construction of the Center for Tribal Studies at Vinoba Bhave University in Hazaribagh is currently underway with 90% of the work already completed. It is expected to be fully constructed in the next 1-2 months.",
+                "answer_Hindi": "हज़ारीबाग में विनोबा भावे विश्वविद्यालय में सेंटर फॉर ट्राइबल स्टडीज का निर्माण वर्तमान में प्रगट है और प्राय: 90% कार्य पूर्ण किया गया है। इसकी पूर्णता की उम्मीद है कि आने वाले 1-2 महीनों में होगी।",
+                "question_English": "What is the current status of the construction of the Center for Tribal Studies at Vinoba Bhave University in Hazaribagh?",
+                "question_Hindi": "हज़ारीबाग में विनोबा भावे विश्वविद्यालय में सेंटर फॉर ट्राइबल स्टडीज का निर्माण का वर्तमान स्थिति क्या है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910884969,
+            "id": "19529324-ba5e-4e86-9884-fcd625b29d97",
+            "lastUpdateTimeUnix": 1700910884969,
+            "properties": {
+                "answer_English": "The Ujjwala Yojana is in alignment with Prime Minister Narendra Modi's vision for a better and cleaner life. By providing free gas connections and stoves, the initiative not only ensures clean cooking fuel but also contributes to the overall well-being of women in Hazaribagh Lok Sabha.",
+                "answer_Hindi": "उज्ज्वला योजना प्रधानमंत्री नरेंद्र मोदी के बेहतर और स्वच्छ जीवन के दृष्टिकोण के साथ मेल खा रही है। मुफ्त गैस कनेक्शन और चूल्हा प्रदान करके, इस पहल से स्वच्छ पाक-शाक इनिशिएटिव को हमसे नहीं बचा जा सकता है, और हजारीबाग लोकसभा की महिलाओं के समग्र कल्याण में योगदान किया जा रहा है।",
+                "question_English": "How is the Ujjwala Yojana aligning with the vision of Prime Minister Narendra Modi for a better and cleaner life?",
+                "question_Hindi": "उज्ज्वला योजना प्रधानमंत्री नरेंद्र मोदी के बेहतर और स्वच्छ जीवन के दृष्टिकोण के साथ कैसे मेल खा रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910935117,
+            "id": "1a264363-3d1b-4fab-9272-47dce581a630",
+            "lastUpdateTimeUnix": 1700910935117,
+            "properties": {
+                "answer_English": "Under the leadership of Honorable PM Narendra Modi, Kashmir has witnessed consistent and significant changes and transformations.",
+                "answer_Hindi": "माननीय प्रधानमंत्री नरेंद्र मोदी जी के नेतृत्व में, कश्मीर ने सतत और महत्वपूर्ण बदलाव और परिवर्तन देखा है।",
+                "question_English": "What changes and transformations have taken place in Kashmir under the leadership of Honorable PM Narendra Modi?",
+                "question_Hindi": "माननीय प्रधानमंत्री नरेंद्र मोदी जी के नेतृत्व में कश्मीर में कौन-कौन से बदलाव और परिवर्तन हुए हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910921120,
+            "id": "1d3931c2-c4dd-4a83-b7b5-2db9390b8a60",
+            "lastUpdateTimeUnix": 1700910921120,
+            "properties": {
+                "answer_English": "The use of UPI for online payments during Diwali celebrations aligns with the spirit of #VocalForLocal by promoting digital transactions and supporting local businesses. This approach encourages the adoption of digital payment methods, contributing to the government's vision of promoting local entrepreneurship.",
+                "answer_Hindi": "दीपावली उत्सव के दौरान ऑनलाइन भुगतान के लिए यूपीआई का उपयोग #VocalForLocal की भावना के साथ मेल खाता है, डिजिटल लेन-देन को प्रोत्साहित करता है और स्थानीय व्यापारों का समर्थन करता है। यह दृष्टिकोण डिजिटल भुगतान के तरीकों को अपनाने को बढ़ावा देने से सरकार के स्थानीय उद्यमिता को प्रोत्साहित करने का एक हिस्सा है।",
+                "question_English": "How does the use of UPI for online payments align with the spirit of #VocalForLocal during Diwali celebrations?",
+                "question_Hindi": "दीपावली उत्सव के दौरान ऑनलाइन भुगतान के लिए यूपीआई का उपयोग #VocalForLocal की भावना के साथ कैसे मेल खाता है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910926814,
+            "id": "1f18730d-2005-4335-942b-930a2ba67729",
+            "lastUpdateTimeUnix": 1700910926814,
+            "properties": {
+                "answer_English": "People in the Hazaribagh Lok Sabha, benefiting from the schemes of the Modi government, are extremely pleased. There is immense affection and unwavering trust in the hearts of the people towards Prime Minister Narendra Modi. When people are informed about developmental initiatives, they express great satisfaction upon hearing #ModiHaiTohMumkinHai.",
+                "answer_Hindi": "हजारीबाग लोकसभा में, मोदी सरकार की योजनाओं से लाभ पाने वाले लोग बेहद खुश हैं। लोगों के दिलों में प्रधानमंत्री नरेंद्र मोदी के प्रति अपार प्रेम और अटूट विश्वास है। जब लोगों को विकास कार्यों के बारे में बताता हूं, तो उनसे #ModiHaiTohMumkinHai सुनकर अत्यंत प्रसन्नता होती है।",
+                "question_English": "What are the sentiments of the people towards the schemes of the Modi government in the Hazaribagh Lok Sabha, and what expressions of affection and unwavering trust were conveyed towards Prime Minister Narendra Modi?",
+                "question_Hindi": "हजारीबाग लोकसभा में मोदी सरकार की योजनाओं के प्रति लोगों की भावनाएं क्या हैं, और प्रधानमंत्री नरेंद्र मोदी के प्रति प्रेम और अटूट विश्वास का कौन-कौन सा अभिव्यक्ति की गई?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910897924,
+            "id": "1f686ec4-e80d-49db-9948-cd56d6fc1981",
+            "lastUpdateTimeUnix": 1700910897924,
+            "properties": {
+                "answer_English": "The construction of Hazaribagh Medical College and Hospital is currently in progress. This project, initiated as a gift from Honorable Prime Minister Narendra Modi, is focused on creating a world-class medical facility. The hospital will have 500 beds and state-of-the-art amenities. The ongoing construction work aims to complete the project swiftly, bringing about a positive transformation in healthcare services in the region.",
+                "answer_Hindi": "हज़ारीबाग मेडिकल कॉलेज और अस्पताल का निर्माण वर्तमान में प्रगट्ट है। इस परियोजना को, जो मा. प्रधानमंत्री नरेंद्र मोदी जी के द्वारा एक उपहार के रूप में शुरू किया गया था, एक विश्वस्तरीय मेडिकल सुविधा बनाने पर केंद्रित किया गया है। इस अस्पताल में 500 बेड और नवीनतम सुविधाएं होंगी। चल रहे निर्माण कार्य का उद्देश्य परियोजना को शीघ्र पूरा करना है, जिससे क्षेत्र में स्वास्थ्य सेवाओं में सकारात्मक परिवर्तन लाया जा सके।",
+                "question_English": "Can you provide more details about the ongoing construction of Hazaribagh Medical College and Hospital?",
+                "question_Hindi": "हज़ारीबाग मेडिकल कॉलेज और अस्पताल के चल रहे निर्माण के बारे में और जानकारी प्रदान कर सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910940287,
+            "id": "258c9cc3-2f40-4984-99d8-61947caea2fa",
+            "lastUpdateTimeUnix": 1700910940287,
+            "properties": {
+                "answer_English": "Jayant Sinha urges all citizens to participate in the ongoing voting in Chhattisgarh and Mizoram and encourages them to inspire others to vote. He emphasizes that their votes will contribute to the prosperity and self-reliance of these states.",
+                "answer_Hindi": "जयंत सिन्हा ने सभी नागरिकों से आग्रह किया है कि वे छत्तीसगढ़ और मिजोरम में जारी मतदान में भाग लें और उन्हें दूसरों को मतदान करने के लिए प्रेरित करें। उन्होंने यह बताया है कि उनके वोट से इन राज्यों की समृद्धि और आत्मनिर्भरता में योगदान होगा।",
+                "question_English": "What message is Jayant Sinha conveying about the ongoing voting in Chhattisgarh and Mizoram?",
+                "question_Hindi": "जयंत सिन्हा ने छत्तीसगढ़ और मिजोरम में जारी मतदान के बारे में कौन-कौन सी संदेश दी है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910909548,
+            "id": "2653cca3-7ea3-4990-bc1d-02f80c31c78e",
+            "lastUpdateTimeUnix": 1700910909548,
+            "properties": {
+                "answer_English": "The Chitragupta Puja event recognized and honored individuals from Hazaribagh who have been bringing recognition to the city in various fields. Their contributions were acknowledged and celebrated.",
+                "answer_Hindi": "चित्रगुप्त पूजा के कार्यक्रम ने हजारीबाग के व्यक्तियों को पहचाना और सम्मानित किया जिन्होंने विभिन्न क्षेत्रों में शहर को पहचान दिलाई है। उनके योगदान को मान्यता और समर्पण से स्वीकृत किया गया।",
+                "question_English": "How was the contribution of Hazaribagh individuals recognized during the Chitragupta Puja event?",
+                "question_Hindi": "चित्रगुप्त पूजा के कार्यक्रम में हजारीबाग के व्यक्तियों का योगदान कैसे पहचाना गया था?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910936896,
+            "id": "285736f9-2d25-4d79-9d0b-4fc30e8e50f7",
+            "lastUpdateTimeUnix": 1700910936896,
+            "properties": {
+                "answer_English": "The implementation of Ayushman Bharat Yojana in Hazaribagh Lok Sabha has ensured that 10,25,832 residents have access to healthcare facilities through Ayushman cards, addressing the lack of financial barriers to medical treatment.",
+                "answer_Hindi": "हजारीबाग लोकसभा में आयुष्मान भारत योजना के कार्यान्वयन ने सुनिश्चित किया है कि 10,25,832 क्षेत्रवासियों को आयुष्मान कार्ड के माध्यम से स्वास्थ्य सुविधाओं तक पहुंच मिले, चिकित्सा से संबंधित वित्तीय कठिनाइयों को दूर करते हुए।",
+                "question_English": "How has the implementation of Ayushman Bharat Yojana in Hazaribagh Lok Sabha benefited the residents?",
+                "question_Hindi": "हजारीबाग लोकसभा में आयुष्मान भारत योजना के कार्यान्वयन से क्षेत्रवासियों को कैसे लाभ हुआ है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910897924,
+            "id": "28a6db92-55ff-4db8-97e1-c8c62f7e9d3f",
+            "lastUpdateTimeUnix": 1700910897924,
+            "properties": {
+                "answer_English": "During the inspection of Hazaribagh Medical College and Hospital yesterday, essential directives were given to ensure the progress of the medical college and hospital. This initiative, which was a gift from Honorable Prime Minister Narendra Modi, aims to make the medical college actively functional, with ongoing construction of the hospital. The construction is progressing swiftly, and the hospital, equipped with world-class facilities and 500 beds, will bring a transformative change in the healthcare landscape.",
+                "answer_Hindi": "कल हज़ारीबाग मेडिकल कॉलेज और अस्पताल की निरीक्षण के दौरान, मेडिकल कॉलेज और अस्पताल की प्रगति सुनिश्चित करने के लिए आवश्यक निर्देश दिए गए। यह पहल, जो मा. प्रधानमंत्री नरेंद्र मोदी जी द्वारा दी गई थी, मेडिकल कॉलेज को सक्रिय बनाने का उद्देश्य रखती है, जिसके साथ ही अस्पताल का निर्माण भी जारी है। निर्माण तेजी से प्रगट्ट हो रहा है, और यह अस्पताल, जिसमें विश्वस्तरीय सुविधाएं हैं और 500 बेड हैं, स्वास्थ्य के क्षेत्र में परिदृश्य में परिवर्तन लाएगा।",
+                "question_English": "What were the key directives provided during the inspection of Hazaribagh Medical College and Hospital yesterday?",
+                "question_Hindi": "कल हज़ारीबाग मेडिकल कॉलेज और अस्पताल की निरीक्षण के दौरान क्या मुख्य निर्देश दिए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910891389,
+            "id": "296a61ae-cc80-4d61-8186-f5012bad964a",
+            "lastUpdateTimeUnix": 1700910891389,
+            "properties": {
+                "answer_English": "The construction of the hockey astroturf at Sai Sports Center in Hazaribagh, with an investment of approximately ₹9 crores, is progressing rapidly. It is expected to be completed within the next 1 to 2 months. This initiative aims to provide athletes with training facilities for global competitions, contributing to the continuous development of sports and athletes in the Hazaribagh Lok Sabha region.",
+                "answer_Hindi": "हजारीबाग में स्थित साई स्पोर्ट्स सेंटर में लगभग ₹9 करोड़ का हॉकी एस्ट्रोटर्फ बनाने का निर्माण तेजी से प्रगति कर रहा है। इसका पूरा होना अगले 1 से 2 महीनों में अपेक्षित है। यह पहल का उद्देश्य है खिलाड़ियों को वैश्विक प्रतिस्पर्धा के लिए प्रशिक्षण प्रदान करना, हजारीबाग लोकसभा क्षेत्र में खेल और खिलाड़ियों के निरंतर विकास को बढ़ावा देना है।",
+                "question_English": "What is the current progress of the construction of the hockey astroturf at Sai Sports Center in Hazaribagh, which is being built with an investment of approximately ₹9 crores?",
+                "question_Hindi": "हजारीबाग में स्थित साई स्पोर्ट्स सेंटर में लगभग ₹9 करोड़ का हॉकी एस्ट्रोटर्फ का निर्माण किस स्थिति में है, जो लगभग ₹9 करोड़ के निवेश से किया जा रहा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910887103,
+            "id": "2d468425-cccb-4802-8958-83a13f6efd60",
+            "lastUpdateTimeUnix": 1700910887103,
+            "properties": {
+                "answer_English": "Continuous efforts are being made to provide better facilities to the residents of the Hazaribagh Lok Sabha region. The collaborative discussions with the Ministry of Railways, Ministry of Road Transport and Highways, and NHAI aim to ensure the timely completion of ongoing projects and enhance the overall infrastructure of the region.",
+                "answer_Hindi": "हजारीबाग लोकसभा क्षेत्र के निवासियों को बेहतर सुविधाएं प्रदान करने के लिए निरंतर प्रयास किए जा रहे हैं। रेल मंत्रालय, सड़क परिवहन और राजमार्ग मंत्रालय, और एनएचएआई के सहयोगी चर्चाएं का उद्देश्य है कि क्रियान्वित परियोजनाओं को समय पर पूरा किया जाए और क्षेत्र की समग्र आधारविद्युत्ता को बढ़ावा दिया जाए।",
+                "question_English": "What continuous efforts are being made to provide better facilities to the residents of the Hazaribagh Lok Sabha region?",
+                "question_Hindi": "हजारीबाग लोकसभा क्षेत्र के निवासियों को बेहतर सुविधाएं प्रदान करने के लिए कौन-कौन से निरंतर प्रयास किए जा रहे हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910905638,
+            "id": "32a1b314-2679-4ddc-baac-0c6bb723dc11",
+            "lastUpdateTimeUnix": 1700910905638,
+            "properties": {
+                "answer_English": "Jharkhand's culture is described as unparalleled and unique.",
+                "answer_Hindi": "झारखंड की सांस्कृतिक अद्वितीयता को अनुपम और अद्वितीय बताया जाता है।",
+                "question_English": "How would you describe the uniqueness of Jharkhand's culture?",
+                "question_Hindi": "झारखंड की सांस्कृतिक अद्वितीयता को आप कैसे वर्णित करेंगे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910933542,
+            "id": "35baa8dd-a659-4663-a87b-2513e50c30b1",
+            "lastUpdateTimeUnix": 1700910933542,
+            "properties": {
+                "answer_English": "The initiative of providing homes to 76,000 families in Hazaribagh Lok Sabha has brought significant benefits to the residents, ensuring they have their own residences.",
+                "answer_Hindi": "हजारीबाग लोकसभा में 76,000 परिवारों को घर प्रदान करने की पहल ने क्षेत्रवासियों को महत्वपूर्ण लाभ प्रदान किया है, सुनिश्चित करती हुई कि उनके पास उनके अपने आवास हैं।",
+                "question_English": "How has the initiative of providing homes to 76,000 families in Hazaribagh Lok Sabha benefited the residents?",
+                "question_Hindi": "हजारीबाग लोकसभा में 76,000 परिवारों को घर प्रदान करने की पहल ने क्षेत्रवासियों को कैसे लाभान्वित किया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910897924,
+            "id": "3cb3d66b-a12a-4871-822c-2440dc8ea9e0",
+            "lastUpdateTimeUnix": 1700910897924,
+            "properties": {
+                "answer_English": "The allocation of 50 acres of land to Vinoba Bhave University aims to transform it into an Education City. This initiative is expected to provide a conducive environment for academic and research activities. The expanded infrastructure will facilitate the growth of educational facilities, contributing to the development of the university as a hub for learning and innovation.",
+                "answer_Hindi": "50 एकड़ भूमि का विनोबा भावे विश्वविद्यालय को एजुकेशन सिटी में बदलने का उद्देश्य है। इस पहल से शिक्षा और अनुसंधान के क्षेत्र में एक अनुकूल वातावरण प्रदान होने की उम्मीद है। बढ़ी हुई बुनियादी ढांचे से यूनिवर्सिटी की शिक्षा सुविधाओं के विकास को सुनिश्चित किया जाएगा, जिससे विश्वविद्यालय को एक शिक्षा और नवाचार के केंद्र के रूप में विकसित किया जाएगा।",
+                "question_English": "How will the allocation of 50 acres of land to Vinoba Bhave University contribute to transforming it into an Education City?",
+                "question_Hindi": "50 एकड़ भूमि का विनोबा भावे विश्वविद्यालय को एजुकेशन सिटी में बदलने से कैसे योगदान होगा?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910933542,
+            "id": "3e17fc41-2763-4d17-9f52-56e11bf9875f",
+            "lastUpdateTimeUnix": 1700910933542,
+            "properties": {
+                "answer_English": "Under the initiative in Hazaribagh Lok Sabha, a total of 76,000 families have received homes from the Modi government.",
+                "answer_Hindi": "हजारीबाग लोकसभा में पहल के तहत, मोदी सरकार ने कुल 76,000 परिवारों को घर प्रदान किया है।",
+                "question_English": "What is the total number of families that have received homes under the initiative in Hazaribagh Lok Sabha?",
+                "question_Hindi": "हजारीबाग लोकसभा में पहल के तहत कुल कितने परिवारों को घर मिला है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910904118,
+            "id": "401cec25-d028-4963-b9bd-b3a16d50230a",
+            "lastUpdateTimeUnix": 1700910904118,
+            "properties": {
+                "answer_English": "A heartfelt gratitude was expressed for the projects announced for Jharkhand by Prime Minister Narendra Modi.",
+                "answer_Hindi": "मा. प्रधानमंत्री Narendra Modi जी द्वारा झारखंड के लिए घोषित की गई परियोजनाओं के लिए एक भावनात्मक कृतज्ञता जाहिर की गई थी।",
+                "question_English": "What was the heartfelt gratitude expressed for by mentioning the projects announced for Jharkhand by Prime Minister Narendra Modi?",
+                "question_Hindi": "मा. प्रधानमंत्री Narendra Modi जी द्वारा झारखंड के लिए घोषित की गई परियोजनाओं के लिए कौन-कौन सी भावनात्मक कृतज्ञता जाहिर की गई थी?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910925060,
+            "id": "40d71178-0c6d-4172-a094-8bcf9e0a35c6",
+            "lastUpdateTimeUnix": 1700910925060,
+            "properties": {
+                "answer_English": "Ma. Bhupender Yadav BJP played a crucial role in the organization of job fairs, contributing significantly to employment opportunities nationwide. The efforts made by Ma. Bhupender Yadav BJP were acknowledged and appreciated as they played a key role in facilitating job fairs that address the unemployment challenges faced by the youth across the country.",
+                "answer_Hindi": "मा. भूपेंद्र यादव भाजपा ने रोजगार मेलों के आयोजन में महत्वपूर्ण भूमिका निभाई, जिससे राष्ट्रभर में रोजगार के अवसरों में बड़ा योगदान हुआ है। मा. भूपेंद्र यादव भाजपा द्वारा की गई प्रयासों की सराहना और कृतज्ञता की गई, क्योंकि इससे प्रधानमंत्री नरेंद्र मोदी जी के नेतृत्व में युवा बेरोजगारी की चुनौतियों का समाधान करने में मदद मिली।",
+                "question_English": "What role did Ma. Bhupender Yadav BJP play in the organization of job fairs, and how has it contributed to employment opportunities nationwide?",
+                "question_Hindi": "मा. भूपेंद्र यादव भाजपा ने रोजगार मेलों के आयोजन में कौन-कौन सी भूमिका निभाई, और इससे राष्ट्रभर में रोजगार के अवसरों में कैसे योगदान किया गया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910928822,
+            "id": "42b4372c-50cc-4278-8f80-4612ef3cbfcb",
+            "lastUpdateTimeUnix": 1700910928822,
+            "properties": {
+                "answer_English": "The Ujjwala Yojana, implemented by the government led by Prime Minister Narendra Modi in the Hazaribagh Lok Sabha, has provided free gas connections and stoves to more than 2,71,000 women. This initiative has brought significant changes in the lives of these women, granting them freedom from traditional cooking methods and saving them time.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी की सरकार द्वारा हजारीबाग लोकसभा में आयोजित की गई उज्ज्वला योजना ने 2,71,000 से अधिक महिलाओं को मुफ्त गैस कनेक्शन और चूल्हा प्रदान किया है। इस पहल से इन महिलाओं के जीवन में महत्वपूर्ण परिवर्तन आया है, जिन्हें पारंपरिक वायुमंडल के बंधन से मुक्ति मिली है और उन्हें समय की बचत हो रही है।",
+                "question_English": "How has the Ujjwala Yojana impacted the lives of over 2,71,000 women in the Hazaribagh Lok Sabha?",
+                "question_Hindi": "हजारीबाग लोकसभा में 2,71,000 से अधिक महिलाओं के जीवन पर उज्ज्वला योजना का कैसा प्रभाव पड़ा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910907567,
+            "id": "44b2c47e-64c9-42b6-ba59-b52bf1a7565f",
+            "lastUpdateTimeUnix": 1700910907567,
+            "properties": {
+                "answer_English": "I express heartfelt gratitude to Adivasi brothers and sisters for their warm welcome at the Jatra Mela in Patratu, Ramgarh. Their hospitality has left a lasting impression on my heart.",
+                "answer_Hindi": "पतरातू, रामगढ़ में जात्रा मेले में आदिवासी भाई-बहनों के गर्म स्वागत के लिए मैं हृदय से कृतज्ञता व्यक्त करता हूं। उनकी मेहमान नवाजगी ने मेरे दिल पर एक दीर्घकालिक प्रभाव छोड़ा है।",
+                "question_English": "How do you express gratitude to Adivasi brothers and sisters for their warm welcome at the Jatra Mela in Patratu, Ramgarh?",
+                "question_Hindi": "पतरातू, रामगढ़ में जात्रा मेले में आदिवासी भाई-बहनों के उनके गर्म स्वागत के लिए आप कैसे कृतज्ञता व्यक्त करते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910900042,
+            "id": "46ff5d18-e04b-4607-8715-b46f169eb356",
+            "lastUpdateTimeUnix": 1700910900042,
+            "properties": {
+                "answer_English": "During the inspection, specific instructions were given to ensure the effective progress of Hazaribagh Medical College and Hospital. This initiative, a gift from Honorable Prime Minister Narendra Modi, aims to make the medical college operational and complete the ongoing construction of the hospital, which will have 500 beds and advanced healthcare facilities.",
+                "answer_Hindi": "निरीक्षण के दौरान, हज़ारीबाग मेडिकल कॉलेज और अस्पताल की प्रभावी प्रगति सुनिश्चित करने के लिए विशेष निर्देश दिए गए थे। यह पहल, जो मा. प्रधानमंत्री नरेंद्र मोदी जी का उपहार है, मेडिकल कॉलेज को सक्रिय बनाने और अस्पताल के चल रहे निर्माण को पूरा करने का उद्देश्य रखती है, जिसमें 500 बेड और उन्नत स्वास्थ्य सुविधाएं होंगीं।",
+                "question_English": "What were the specific instructions given during the inspection of Hazaribagh Medical College and Hospital?",
+                "question_Hindi": "हज़ारीबाग मेडिकल कॉलेज और अस्पताल की निरीक्षण के दौरान क्या विशेष निर्देश दिए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910919445,
+            "id": "4a099560-7c6b-4030-bb07-89fb901a8316",
+            "lastUpdateTimeUnix": 1700910919445,
+            "properties": {
+                "answer_English": "The use of UPI for payments aligns with your sister's preference for direct Jan Dhan Yojana-linked transactions. It allows for a seamless and direct transfer of earnings to the linked bank account, supporting the principles of financial inclusion.",
+                "answer_Hindi": "भड़कागांव में भैया और बहन की मुलाकात में पेमेंट के लिए यूपीआई का उपयोग उनकी प्राथमिकताओं के साथ मेल खाता है। इससे उनकी कमाई को सीधे जुड़े बैंक खाते में अंतर्निहित करने में सहारा होता है, वित्तीय समावेश के सिद्धांतों को समर्थन प्रदान करता है।",
+                "question_English": "How does the use of UPI for payments align with your sister's preference for direct Jan Dhan Yojana-linked transactions?",
+                "question_Hindi": "भड़कागांव में भैया और बहन की मुलाकात में यूपीआई का उपयोग पेमेंट के लिए उनकी प्राथमिकताओं के साथ कैसे मेल खाता है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910905638,
+            "id": "4bed39e7-1508-40d0-bf91-e65b7021d119",
+            "lastUpdateTimeUnix": 1700910905638,
+            "properties": {
+                "answer_English": "One memorable moment from the Jatra Mela in Ramgarh was the enjoyment of traditional games and songs with Adivasi brothers and sisters, creating a sense of cultural unity and joy.",
+                "answer_Hindi": "रामगढ़ के जात्रा मेला से एक यादगार पल यह था कि आदिवासी भाई-बहनों के साथ पारंपरिक खेलों और गीतों का आनंद लेना, जिससे सांस्कृतिक एकता और आनंद की भावना बनी।",
+                "question_English": "Can you share a memorable moment from the Jatra Mela in Ramgarh?",
+                "question_Hindi": "क्या आप रामगढ़ के जात्रा मेला से कोई यादगार पल साझा कर सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910936896,
+            "id": "4c4bb06d-7bc5-44f4-9471-de4208091e4d",
+            "lastUpdateTimeUnix": 1700910936896,
+            "properties": {
+                "answer_English": "Under the leadership of PM Shri Narendra Modi, significant efforts have been made to provide better healthcare facilities to the residents of Hazaribagh Lok Sabha, including the implementation of Ayushman Bharat Yojana.",
+                "answer_Hindi": "प्रधानमंत्री श्री नरेंद्र मोदी जी के नेतृत्व में, हजारीबाग लोकसभा के क्षेत्रवासियों को बेहतर स्वास्थ्य सुविधाएं प्रदान करने के लिए महत्वपूर्ण प्रयास किए गए हैं, जिसमें आयुष्मान भारत योजना का कार्यान्वयन भी शामिल है।",
+                "question_English": "What efforts have been made to provide better healthcare facilities to the residents under the leadership of PM Shri Narendra Modi?",
+                "question_Hindi": "प्रधानमंत्री श्री नरेंद्र मोदी जी के नेतृत्व में क्षेत्रवासियों को बेहतर स्वास्थ्य सुविधाएं प्रदान करने के लिए कौन-कौन से प्रयास किए गए हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910889251,
+            "id": "4ed7dc6a-49ce-49db-9b56-f17f962cf9f9",
+            "lastUpdateTimeUnix": 1700910889251,
+            "properties": {
+                "answer_English": "The Government of India, under the leadership of Prime Minister Narendra Modi and Union Minister Nitin Gadkari, is taking necessary steps to control incidents in Ramgarh's Chuttupalu Ghati. The recent meeting in New Delhi emphasized discussions on measures to ensure the safety of the region's residents and the implementation of road projects to enhance transportation.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी और केंद्रीय मंत्री नितिन गडकरी के नेतृत्व में, भारत सरकार रामगढ़ की चुट्टूपालू घाटी में हो रही घटनाओं को नियंत्रित करने के लिए आवश्यक कदम उठा रही है। हाल की दिल्ली में हुई बैठक में क्षेत्र के निवासियों की सुरक्षा सुनिश्चित करने और यातायात को बढ़ावा देने के लिए सड़क परियोजनाओं के क्रियान्वित करने पर जोर दिया गया।",
+                "question_English": "How is the Government of India addressing incidents in the Ramgarh's Chuttupalu Ghati to ensure control and safety?",
+                "question_Hindi": "कैसे भारत सरकार रामगढ़ की चुट्टूपालू घाटी में हो रही घटनाओं को नियंत्रित करने और सुरक्षा सुनिश्चित करने के लिए कदम उठा रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910893758,
+            "id": "53d61662-f8cc-44f2-9bd9-707bb7e02ee2",
+            "lastUpdateTimeUnix": 1700910893758,
+            "properties": {
+                "answer_English": "The Modi government is extending support to families in Hazaribagh Lok Sabha by providing free rations to over 5 lakh 25 thousand households. This initiative has garnered appreciation from the residents of the region, expressing gratitude to Prime Minister Narendra Modi for the welfare measures. The hashtag #ModiHaiToMumkinHai reflects the sentiment of the people who believe that under Modi's leadership, anything is possible.",
+                "answer_Hindi": "मोदी सरकार हजारीबाग लोकसभा के परिवारों को 5 लाख 25 हजार से अधिक को मुफ्त राशन प्रदान करके परिवारों का समर्थन कर रही है। इस पहल को क्षेत्रवासियों ने सराहा है और मा. प्रधानमंत्री नरेंद्र मोदी जी के लिए कृतज्ञता व्यक्त की है। हैशटैग #ModiHaiToMumkinHai लोगों की भावना को दर्शाता है जो मोदी के नेतृत्व में सब कुछ संभव है, इसमें उनकी आस्था है।",
+                "question_English": "How is the Modi government supporting families in Hazaribagh Lok Sabha, providing free rations to more than 5 lakh 25 thousand households?",
+                "question_Hindi": "मोदी सरकार हजारीबाग लोकसभा में कैसे 5 लाख 25 हजार से अधिक परिवारों को मुफ्त राशन प्रदान करके परिवारों का समर्थन कर रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910919445,
+            "id": "55293c32-9dbc-43ec-8ff4-83113637754c",
+            "lastUpdateTimeUnix": 1700910919445,
+            "properties": {
+                "answer_English": "For purchasing Diyas in Badi Kagaon, Hazaribagh Lok Sabha, this Diwali, I opted for digital payments. The incredible feat of the Modi government is evident as online payments through UPI allow for transactions to occur within seconds.",
+                "answer_Hindi": "इस दीपावली, हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड में दीपावली के लिए दियों की खरीदारी के लिए मैंने डिजिटल भुगतान का चयन किया। मोदी सरकार की अद्वितीय क्षमता का प्रमाण है कि यूपीआई के माध्यम से ऑनलाइन भुगतान से सेकंडों में लेन-देन हो रहा है।",
+                "question_English": "How did you choose to make digital payments for purchasing Diyas in Badi Kagaon, Hazaribagh Lok Sabha, this Diwali?",
+                "question_Hindi": "इस दीपावली, हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड में दीपावली के लिए दियों की खरीदारी के लिए आपने कैसे डिजिटल भुगतान करने का चयन किया?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910901918,
+            "id": "5ba64061-45f5-4a40-8902-c38bb510d96d",
+            "lastUpdateTimeUnix": 1700910901918,
+            "properties": {
+                "answer_English": "During the inspection last night, specific directives were given to ensure the necessary arrangements and facilities for the upcoming Chhath festival. The focus is on ensuring that the public faces no issues during worship and rituals at Hazaribagh Lake and Chhath Talab premises.",
+                "answer_Hindi": "कल रात की निरीक्षण के दौरान, आगामी छठ पर्व के लिए आवश्यक व्यवस्थाओं और सुविधाओं को सुनिश्चित करने के लिए विशेष निर्देश दिए गए थे। मुख्य ध्यान इस पर है कि हजारीबाग झील और छठ तालाब परिसर में पूजा-अर्चना के दौरान जनता को कोई समस्या ना हो।",
+                "question_English": "What were the key directives provided during the inspection of Hazaribagh Lake and Chhath Talab premises last night?",
+                "question_Hindi": "कल रात हज़ारीबाग झील और छठ तालाब परिसर की निरीक्षण के दौरान क्या मुख्य निर्देश दिए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910901918,
+            "id": "5dc09bfd-c4f8-449c-8c69-c05822fc1090",
+            "lastUpdateTimeUnix": 1700910901918,
+            "properties": {
+                "answer_English": "Several steps are being taken to ensure a seamless Chhath festival celebration at Hazaribagh Lake and Chhath Talab. The administration is working diligently to provide all necessary facilities and address any potential issues that may arise during the worship and rituals.",
+                "answer_Hindi": "हजारीबाग झील और छठ तालाब में एक सुखद छठ पर्व की सुनिश्चिती के लिए कई कदम उठाए जा रहे हैं। प्रशासन संतुलित रूप से काम कर रहा है ताकि पूजा-अर्चना के दौरान उत्पन्न होने वाली किसी भी संभावित समस्या का समाधान किया जा सके।",
+                "question_English": "What steps are being taken to ensure that there are no hindrances for the public during the Chhath festival celebrations at Hazaribagh Lake and Chhath Talab?",
+                "question_Hindi": "कौन-कौन से कदम उठाए जा रहे हैं ताकि हजारीबाग झील और छठ तालाब परिसर में छठ पर्व के दौरान जनता के लिए कोई बाधा ना हो?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910896010,
+            "id": "60cf17b5-dc00-46b5-8f86-f4e5aa2a7b95",
+            "lastUpdateTimeUnix": 1700910896010,
+            "properties": {
+                "answer_English": "During the meeting with the Honorable Governor of Jharkhand, Shri C.P. Radhakrishnan, key discussions included the allocation of 50 acres of land to transform Vinoba Bhave University into an Education City. Additionally, an invitation was extended for the inauguration of the Center for Tribal Studies, among other topics. The Honorable Governor assured necessary actions and guidance on these matters. The guidance from the respected Governor contributes to new energy and ongoing support for the holistic development of the Hazaribagh parliamentary constituency.",
+                "answer_Hindi": "झारखण्ड के मा. राज्यपाल, श्री सी.पी. राधाकृष्णन जी के साथ की गई मुलाकात में मुख्य चर्चाएं शामिल थीं - विनोबा भावे विश्वविद्यालय को एजुकेशन सिटी में बदलने हेतु 50 एकड़ भूमि का आवंटन करना और अन्य विषयों पर चर्चा करना। साथ ही, एक और विषय में सेंटर फॉर ट्राइबल स्टडीज के उद्घाटन का निमंत्रण देना भी शामिल था। मान्यवर राज्यपाल ने इन मुद्दों पर आवश्यक कार्रवाई और मार्गदर्शन की आश्वासन दी। इस प्रकार के मुद्दों पर मान्यवर राज्यपाल के मार्गदर्शन से हज़ारीबाग सांसदीय क्षेत्र के पूर्णता की दिशा में नई ऊर्जा मिलती है और उसके होलिस्टिक विकास के लिए लगातार समर्थन प्राप्त होता है।",
+                "question_English": "What were the key discussions during the meeting with the Honorable Governor of Jharkhand, Shri C.P. Radhakrishnan, yesterday?",
+                "question_Hindi": "कल मा. झारखण्ड राज्यपाल, श्री सी.पी. राधाकृष्णन जी के साथ मुलाकात में क्या मुख्य चर्चाएं थीं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910938527,
+            "id": "6694f568-4ad1-4471-a55a-1fa67cf428f6",
+            "lastUpdateTimeUnix": 1700910938527,
+            "properties": {
+                "answer_English": "PM Modi has provided the certainty that every dream will be fulfilled in Ayodhya through his unwavering commitment and actions.",
+                "answer_Hindi": "प्रधानमंत्री मोदी जी ने अपने अटूट प्रतिबद्धता और क्रियाओं के माध्यम से यह सुनिश्चित कर दिया है कि अयोध्या में हर सपना पूरा होगा।",
+                "question_English": "What is the certainty given by PM Modi regarding the fulfillment of every dream in Ayodhya?",
+                "question_Hindi": "प्रधानमंत्री मोदी जी ने अयोध्या में हर सपने को पूरा होने की निश्चितता क्या दी है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910900042,
+            "id": "6ae830eb-9e5c-42aa-9b34-2e5d6c4d3132",
+            "lastUpdateTimeUnix": 1700910900042,
+            "properties": {
+                "answer_English": "The upcoming 500-bed hospital in Hazaribagh is designed to be a state-of-the-art facility with world-class amenities. It will offer advanced healthcare services and contribute to a positive transformation in the region's healthcare landscape.",
+                "answer_Hindi": "हजारीबाग में आने वाले 500 बेड वाले अस्पताल को एक विश्वस्तरीय सुविधा के रूप में डिज़ाइन किया गया है जिसमें उन्नत सुविधाएं होंगीं। इसमें उच्चतम स्तर की स्वास्थ्य सेवाएं प्रदान की जाएगीं और क्षेत्र के स्वास्थ्य परिदृश्य में सकारात्मक परिवर्तन का सहारा करेगी।",
+                "question_English": "Can you provide details about the features of the upcoming 500-bed hospital in Hazaribagh?",
+                "question_Hindi": "क्या आप हजारीबाग में आने वाले 500 बेड वाले अस्पताल की विशेषताएं बता सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910896010,
+            "id": "6b954013-0a69-4f7c-a17e-df42ea36639a",
+            "lastUpdateTimeUnix": 1700910896010,
+            "properties": {
+                "answer_English": "The maintenance and construction of various roads in Badkagaon, Hazaribagh Lok Sabha, is underway with an investment of approximately ₹74 crores. This initiative spans a total length of 67 km, aimed at enhancing the overall transportation system. The development of these roads will ensure smoother and safer traffic, providing convenience to the residents of the region. Continuous efforts are being made to expand the road network in the area.",
+                "answer_Hindi": "बड़कागांव, हजारीबाग लोकसभा में विभिन्न सड़कों की मरम्मत और निर्माण का कार्य लगभग ₹74 करोड़ के निवेश के साथ प्रगति पर है। इस पहल का कुल लंबाई 67 किमी है, जिसका उद्देश्य कुल परिवहन तंत्र को सुधारना है। इन सड़कों के विकास से सुगम और सुरक्षित यातायात सुनिश्चित होगा, जिससे क्षेत्रवासियों को सुविधा होगी। क्षेत्र में सड़कों का जाल बिछाने के लिए निरंतर प्रयास किया जा रहा है।",
+                "question_English": "Can you provide details about the maintenance and construction of various roads in Badkagaon, Hazaribagh Lok Sabha, which is costing around ₹74 crores for a total length of 67 km?",
+                "question_Hindi": "क्या आप बड़कागांव, हजारीबाग लोकसभा में विभिन्न सड़कों की मरम्मत और निर्माण के विवरण प्रदान कर सकते हैं, जिसका कुल लंबाई 67 किमी है और जिसका खर्च लगभग ₹74 करोड़ है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910917740,
+            "id": "6bff8fce-f0e6-4fa1-aba0-a8ff860fa4a5",
+            "lastUpdateTimeUnix": 1700910917740,
+            "properties": {
+                "answer_English": "The #JalJeevanMission plays a pivotal role in the broader vision of providing clean water to households across the nation. It is a significant step towards achieving the goal of ensuring access to clean and safe water for every household, contributing to the overall health and well-being of the population.",
+                "answer_Hindi": "#JalJeevanMission घरों में शुद्ध जल प्रदान करने के राष्ट्रभर में दी जाने वाली सार्वजनिक दृष्टिकोण में महत्वपूर्ण भूमिका निभाता है। यह हर घर को स्वच्छ और सुरक्षित जल की पहुंच सुनिश्चित करने की लक्ष्य की प्राप्ति की दिशा में एक महत्वपूर्ण कदम है, जिससे आम जनता के समग्र स्वास्थ्य और भलाइयों में योगदान होता है।",
+                "question_English": "What role does the #JalJeevanMission play in the broader vision of providing clean water in households across the nation?",
+                "question_Hindi": "#JalJeevanMission घरों में शुद्ध जल प्रदान करने के राष्ट्रभर में दी जाने वाली सार्वजनिक दृष्टिकोण में क्या भूमिका निभाता है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910913103,
+            "id": "6cbb1bc6-e513-4348-bdaf-112df2b3d593",
+            "lastUpdateTimeUnix": 1700910913103,
+            "properties": {
+                "answer_English": "The 15th installment of the PM Kisan Samman Nidhi scheme, distributed by Prime Minister Narendra Modi in Khunti, Jharkhand, holds great significance as it involves the transfer of over ₹18,000 crores to the bank accounts of more than 8 crore farmers across the country. This initiative is part of the Modi government's commitment to doubling the income of farmers and promoting self-reliance.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी द्वारा झारखंड के खूंटी से वितरित पीएम किसान सम्मान निधि योजना की 15वीं किस्त का महत्व इसलिए है क्योंकि इसमें देशभर में 8 करोड़ से अधिक किसानों के बैंक खातों में ₹18,000 करोड़ से अधिक की राशि हस्तांतरित की जा रही है। यह पहल मोदी सरकार की किसानों की आय को दोगुना करने और आत्मनिर्भरता को बढ़ावा देने का हिस्सा है।",
+                "question_English": "What is the significance of the 15th installment of the PM Kisan Samman Nidhi scheme distributed by Prime Minister Narendra Modi in Khunti, Jharkhand?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी द्वारा झारखंड के खूंटी से वितरित पीएम किसान सम्मान निधि योजना की 15वीं किस्त का क्या महत्व है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910880747,
+            "id": "6e59bbea-f63d-4a21-a0cd-f951eeee0756",
+            "lastUpdateTimeUnix": 1700910880747,
+            "properties": {
+                "answer_English": "Under the leadership of Prime Minister Narendra Modi, concerted efforts are being made to enhance healthcare facilities for the residents of the region, as reflected in the implementation of the Ayushman Bharat Yojana.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में, क्षेत्रवासियों को बेहतर स्वास्थ्य सुविधाओं प्रदान करने के लिए समृद्धि पूर्वक प्रयास किए जा रहे हैं, जैसा कि आयुष्मान भारत योजना के कारण प्रतिदिन दिखा जा रहा है।",
+                "question_English": "What efforts are being made under the leadership of Prime Minister Narendra Modi to provide better health facilities to the residents of the region?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में क्षेत्रवासियों को बेहतर स्वास्थ्य सुविधाएं प्रदान करने के लिए कौन-कौन से प्रयास किए जा रहे हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910882755,
+            "id": "6f47d4c4-eb36-489a-94c8-e72affa00135",
+            "lastUpdateTimeUnix": 1700910882755,
+            "properties": {
+                "answer_English": "The construction of the Patratu Super Thermal Power Plant, led by Prime Minister Narendra Modi, aims to not only produce coal but also distribute electricity across the country. With an estimated cost of around ₹20,000 crores, this 4000-megawatt plant is generating significant employment opportunities on a large scale.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में पतरातू सुपर थर्मल पॉवर प्लांट का निर्माण, सिर्फ कोयला उत्पन्न करने के लिए ही नहीं, बल्कि देशभर में बिजली वितरित करने का उद्देश्य रखता है। लगभग ₹20,000 करोड़ की लागत से बन रहा इस 4000 मेगावाट वाले प्लांट से बड़े स्तर पर रोजगार के अवसर उत्पन्न हो रहे हैं।",
+                "question_English": "What is the purpose behind the construction of the Patratu Super Thermal Power Plant in Hazaribagh under the leadership of Prime Minister Narendra Modi?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में पतरातू सुपर थर्मल पॉवर प्लांट का निर्माण का क्या उद्देश्य है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910928822,
+            "id": "71752443-ce8f-491e-9f4e-8d0d9620d81f",
+            "lastUpdateTimeUnix": 1700910928822,
+            "properties": {
+                "answer_English": "Over 2,71,000 women in the Hazaribagh Lok Sabha have benefitted from the Ujjwala Yojana. The significant changes in their lives include freedom from traditional cooking methods and time savings.",
+                "answer_Hindi": "हजारीबाग लोकसभा में उज्ज्वला योजना से 2,71,000 से अधिक महिलाएं लाभान्वित हुई हैं। उनके जीवन में हुए महत्वपूर्ण परिवर्तन में शामिल हैं पारंपरिक वायुमंडल से मुक्ति और समय की बचत।",
+                "question_English": "How many women have benefitted from the Ujjwala Yojana in the Hazaribagh Lok Sabha, and what aspects of their lives have witnessed significant changes?",
+                "question_Hindi": "हजारीबाग लोकसभा में उज्ज्वला योजना से कितनी महिलाएं लाभान्वित हुई हैं, और उनके जीवन के कौन-कौन से पहलुओं में महत्वपूर्ण परिवर्तन आया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910907567,
+            "id": "74fbe8f7-c960-4e35-8d53-ac76c8ca2592",
+            "lastUpdateTimeUnix": 1700910907567,
+            "properties": {
+                "answer_English": "In my concluding statement, I express pride in Jharkhand's culture and traditions. The Jatra Mela showcased the rich heritage that we hold dear. Jai Hind! Jai Jharkhand!",
+                "answer_Hindi": "अपने समाप्त बयान में, मैं झारखंड की सांस्कृतिक और परंपराओं में गर्व व्यक्त करता हूं। जात्रा मेला ने हमारी अमूल्य विरासत को प्रदर्शित किया। जय हिंद! जय झारखंड!",
+                "question_English": "What message do you convey about the pride of Jharkhand's culture and traditions in your concluding statement?",
+                "question_Hindi": "अपने समाप्त बयान में झारखंड की सांस्कृतिक और परंपराओं के गर्व के बारे में आप कौन-कौन सी संदेश देते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910940287,
+            "id": "7a351e46-e17e-488f-b4de-89db54a18fde",
+            "lastUpdateTimeUnix": 1700910940287,
+            "properties": {
+                "answer_English": "Jayant Sinha urges everyone to make Diwali special by purchasing from local vendors as part of the #VocalForLocal initiative. He appeals to bring happiness into the lives of local sellers and encourages the spirit of #AatmaNirbharBharat.",
+                "answer_Hindi": "जयंत सिन्हा ने सभी से अपील की है कि #VocalForLocal के हिस्से के रूप में स्थानीय विक्रेताओं से खरीदारी करके दीपावली को विशेष बनाएं। उन्होंने स्थानीय विक्रेताओं के जीवन में खुशियां लाने की अपील की है और #AatmaNirbharBharat की भावना को बढ़ावा देने के लिए प्रेरित किया है।",
+                "question_English": "What message does Jayant Sinha convey about Diwali in the context of #VocalForLocal?",
+                "question_Hindi": "जयंत सिन्हा ने #VocalForLocal के संदर्भ में दीपावली के बारे में क्या संदेश दिया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910938527,
+            "id": "7c1edeb0-f637-4a7b-9122-56a3956d576a",
+            "lastUpdateTimeUnix": 1700910938527,
+            "properties": {
+                "answer_English": "Ayodhya has witnessed significant projects, including the construction of the grand Shri Ram Janmabhoomi temple, and the establishment of secure shelters for 4 crore poor brothers and sisters, as promised by PM Modi.",
+                "answer_Hindi": "अयोध्या में विभिन्न महत्वपूर्ण परियोजनाएं शुरू की गई हैं, जिसमें श्री राम जन्मभूमि मंदिर का निर्माण भी शामिल है, और 4 करोड़ गरीब भाई-बहनों के लिए सुरक्षित आश्रय की स्थापना की गई है, जैसा कि पीएम मोदी जी ने वादा किया था।",
+                "question_English": "What significant projects have been undertaken in Ayodhya, including the construction of the grand Shri Ram Janmabhoomi temple?",
+                "question_Hindi": "अयोध्या में कौन-कौन से महत्वपूर्ण परियोजनाएं शुरू की गई हैं, जिसमें श्री राम जन्मभूमि मंदिर का निर्माण शामिल है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910919445,
+            "id": "7d1f0517-c0de-4e0a-bd9e-fe662445d947",
+            "lastUpdateTimeUnix": 1700910919445,
+            "properties": {
+                "answer_English": "Your sister's preference for online payments contributes to the principles of #VocalForLocal and #ModiHaiToMumkinHai by supporting digital transactions and promoting local businesses. This aligns with the government's vision of encouraging local entrepreneurship and embracing digital modes of financial transactions.",
+                "answer_Hindi": "ऑनलाइन पेमेंट्स के प्रति आपकी बहन की प्राथमिकता #VocalForLocal और #ModiHaiToMumkinHai के सिद्धांतों में योगदान करती है, डिजिटल लेन-देन को समर्थन करती है और स्थानीय व्यापारों को प्रमोट करती है। यह सरकार के स्थानीय उद्यमिता को प्रोत्साहित करने और वित्तीय लेन-देन के डिजिटल मोड को अपनाने के दृष्टिकोण के साथ मेल खाता है।",
+                "question_English": "How does your sister's preference for online payments contribute to the principles of #VocalForLocal and #ModiHaiToMumkinHai?",
+                "question_Hindi": "ऑनलाइन पेमेंट्स के प्रति आपकी बहन की प्राथमिकता #VocalForLocal और #ModiHaiToMumkinHai के सिद्धांतों में कैसे योगदान करती है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910880747,
+            "id": "7e6696e4-9da8-4fe9-b1f7-a9d156e55e5c",
+            "lastUpdateTimeUnix": 1700910880747,
+            "properties": {
+                "answer_English": "The Ayushman Bharat Yojana, spearheaded by Prime Minister Narendra Modi, aims to eliminate financial barriers to healthcare in the region. It ensures that everyone, despite financial constraints, can avail necessary medical treatments.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में आयुष्मान भारत योजना का उद्देश्य क्षेत्र में स्वास्थ्य सेवाओं के लिए वित्तीय बाधाओं को खत्म करना है। इससे सुनिश्चित होता है कि सभी, वित्तीय परिस्थितियों के बावजूद, आवश्यक चिकित्सा सेवाओं का लाभ उठा सकते हैं।",
+                "question_English": "How does the Ayushman Bharat Yojana address the issue of financial constraints in accessing medical treatment in the region?",
+                "question_Hindi": "क्षेत्र में चिकित्सा सुविधा तक पहुँच में वित्तीय संबंधों को कैसे दूर करती है आयुष्मान भारत योजना?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910916167,
+            "id": "82f636ab-daa1-4c03-9aa8-8a6ded006c90",
+            "lastUpdateTimeUnix": 1700910916167,
+            "properties": {
+                "answer_English": "The ₹7,200 crore projects inaugurated in Jharkhand will cover key sectors such as railways, roads, education, and coal-petroleum. These initiatives aim to contribute to the overall development and infrastructure enhancement of the state.",
+                "answer_Hindi": "झारखंड में उद्घाटन किए गए ₹7,200 करोड़ के परियोजनाएं रेलवे, सड़क, शिक्षा, और कोल-पेट्रोलियम जैसे कुँजी खास क्षेत्रों को समाहित करेंगी। ये पहलें का उद्देश्य है कि राज्य के समग्र विकास और बुनियादी ढाँचे को बढ़ावा दें।",
+                "question_English": "What specific sectors will be covered by the ₹7,200 crore projects inaugurated in Jharkhand?",
+                "question_Hindi": "झारखंड में उद्घाटन किए गए ₹7,200 करोड़ के परियोजनाओं से कौन-कौन से विशेष क्षेत्रों को समाहित किया जाएगा?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910913103,
+            "id": "89bd4fc4-988b-4823-850d-4f944c13220b",
+            "lastUpdateTimeUnix": 1700910913103,
+            "properties": {
+                "answer_English": "In the 15th installment of the PM Kisan Samman Nidhi scheme from Khunti, Jharkhand, Prime Minister Narendra Modi transferred over ₹18,000 crores to the bank accounts of more than 8 crore farmers across the country.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी ने झारखंड के खूंटी से वितरित पीएम किसान सम्मान निधि योजना की 15वीं किस्त के दौरान देशभर में 8 करोड़ से अधिक किसानों के बैंक खातों में ₹18,000 करोड़ से अधिक की राशि हस्तांतरित की गई।",
+                "question_English": "How much money was transferred in the 15th installment of the PM Kisan Samman Nidhi scheme from Khunti, Jharkhand?",
+                "question_Hindi": "पीएम किसान सम्मान निधि योजना की 15वीं किस्त से खूंटी, झारखंड में कितने पैसे हस्तांतरित किए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910930251,
+            "id": "8a9e3942-de0a-4e04-99b9-734fc7702f0d",
+            "lastUpdateTimeUnix": 1700910930251,
+            "properties": {
+                "answer_English": "The design of the Center for Tribal Studies is inspired by the topography of the hills in Jharkhand. It seeks to incorporate and preserve the regional and folk arts through research, with facilities like a large museum and administrative buildings.",
+                "answer_Hindi": "ट्राइबल स्टडीज केंद्र का डिज़ाइन झारखंड के पहाड़ों के स्वरूप से प्रेरित है। इसका उद्देश्य है क्षेत्रीय और लोक कलाओं को शोध कर उन्हें समरक्षण और प्रचार-प्रसार के माध्यम से शामिल करना, जिसमें एक विशाल संग्रहालय और प्रशासनिक भवन जैसी सुविधाएं शामिल हैं।",
+                "question_English": "What is the design inspiration for the Center for Tribal Studies, and how does it connect to the topography of the hills in Jharkhand?",
+                "question_Hindi": "ट्राइबल स्टडीज केंद्र के लिए डिज़ाइन की स्पर्धा किससे हुई है, और झारखंड के पहाड़ों के स्वरूप से इसका कैसा संबंध है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910893758,
+            "id": "8b5fdc6a-5acf-4050-b50a-cd500238bccd",
+            "lastUpdateTimeUnix": 1700910893758,
+            "properties": {
+                "answer_English": "The residents of Hazaribagh Lok Sabha are expressing gratitude and appreciation for the Modi government's initiative of providing free rations to more than 5 lakh 25 thousand families. The people are thankful to Prime Minister Narendra Modi for this welfare measure, highlighting the positive impact it has on the community. The hashtag #ModiHaiToMumkinHai reflects the optimism and belief in the effectiveness of Modi's leadership.",
+                "answer_Hindi": "हजारीबाग लोकसभा के निवासियों ने मोदी सरकार की पहल के लिए कृतज्ञता और सराहना व्यक्त की है, जिसमें 5 लाख 25 हजार से अधिक परिवारों को मुफ्त राशन प्रदान करने की बात है। लोग मा. प्रधानमंत्री नरेंद्र मोदी जी के लिए इस कल्याणकारी उपाय के लिए कृतज्ञ हैं, जिससे समुदाय पर सकारात्मक प्रभाव है। हैशटैग #ModiHaiToMumkinHai लोगों की आशावाद और मोदी के नेतृत्व के प्रभावकारिता में विश्वास को दर्शाता है।",
+                "question_English": "What is the response of the residents of Hazaribagh Lok Sabha to the initiative of providing free rations to more than 5 lakh 25 thousand families by the Modi government?",
+                "question_Hindi": "हजारीबाग लोकसभा के निवासियों का कैसा प्रतिक्रिया है मोदी सरकार द्वारा 5 लाख 25 हजार से अधिक परिवारों को मुफ्त राशन प्रदान करने की पहल के प्रति?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910932038,
+            "id": "8dd58e75-1af5-40f7-958e-92dc32e20990",
+            "lastUpdateTimeUnix": 1700910932038,
+            "properties": {
+                "answer_English": "The construction work of the Giddi Bridge in Ramgarh is expected to commence very soon. The timeline for the commencement will be determined based on the completion of the necessary inspections and surveys.",
+                "answer_Hindi": "रामगढ़ में गिद्दी पुल के निर्माण कार्य की शुरूआत बहुत जल्दी होने की उम्मीद है। इसकी शुरूआत की तारीख आवश्यक निरीक्षण और सर्वे के पूरा होने पर निर्धारित की जाएगी।",
+                "question_English": "What is the timeline for the commencement of the construction work of the Giddi Bridge in Ramgarh?",
+                "question_Hindi": "रामगढ़ में गिद्दी पुल के निर्माण कार्य की शुरूआत के लिए कौन-कौन सा समय सीमा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910926814,
+            "id": "939cfbed-54c5-43f8-9ded-2fe75d58f8bd",
+            "lastUpdateTimeUnix": 1700910926814,
+            "properties": {
+                "answer_English": "A public dialogue was conducted in the 8 panchayats of the Ara Mandal in the Mandu Vidhan Sabha of Ramgarh. Greetings for the upcoming festivals were extended to everyone on this occasion. The focus of the dialogue was to address and resolve the issues raised by the public, and directives were given to officials for the resolution of these problems. Additionally, an appeal was made to promote #VocalForLocal.",
+                "answer_Hindi": "रामगढ़ की मांडू विधानसभा के आरा मंडल की 8 पंचायतों में जनसंवाद किया गया। इस अवसर पर सभी को आगामी त्योहारों की शुभकामनाएं दी गईं। जनता द्वारा बताई गईं समस्याओं के निवारण हेतु निर्देश देने का केंद्र था, और इन समस्याओं के समाधान के लिए अधिकारियों को निर्देश दिए गए। इसके अलावा, #VocalForLocal को बढ़ावा देने की अपील भी की गई।",
+                "question_English": "What was the focus of the public dialogue conducted in the 8 panchayats of the Ara Mandal in the Mandu Vidhan Sabha of Ramgarh, and what greetings were extended to the people for the upcoming festivals?",
+                "question_Hindi": "रामगढ़ की मांडू विधानसभा के आरा मंडल की 8 पंचायतों में किए गए जनसंवाद का केंद्र क्या था, और आगामी त्योहारों के लिए लोगों को कौन-कौन सी शुभकामनाएं दी गईं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910933542,
+            "id": "964e7958-d0b6-4660-85d9-23c43696b3e9",
+            "lastUpdateTimeUnix": 1700910933542,
+            "properties": {
+                "answer_English": "The Modi government has undertaken an initiative to provide homes to 76,000 families in Hazaribagh Lok Sabha, offering them their own residences.",
+                "answer_Hindi": "मोदी सरकार ने हजारीबाग लोकसभा में 76,000 परिवारों को उनके अपने घर प्रदान करने की पहल को आधारित किया है।",
+                "question_English": "Can you provide details about the initiative of providing homes to 76,000 families in Hazaribagh Lok Sabha by the Modi government?",
+                "question_Hindi": "मोदी सरकार द्वारा हजारीबाग लोकसभा में 76,000 परिवारों को अपना घर देने की पहल के बारे में क्या विवरण है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910901918,
+            "id": "96ea38e3-f6a1-4093-934f-865b18f8b386",
+            "lastUpdateTimeUnix": 1700910901918,
+            "properties": {
+                "answer_English": "The administration is actively ensuring that all necessary facilities are in place to avoid any issues for the public during worship and rituals at Hazaribagh Lake and Chhath Talab premises. This includes comprehensive arrangements to facilitate a smooth and hassle-free celebration of the Chhath festival.",
+                "answer_Hindi": "प्रशासन सक्रियता से सुनिश्चित कर रहा है कि हजारीबाग झील और छठ तालाब परिसर में पूजा-अर्चना के दौरान जनता को कोई समस्या ना हो। इसमें सुविधाएं स्थापित करने के लिए सम्पूर्ण व्यवस्थाएं शामिल हैं ताकि छठ पर्व का सुखद और बिना किसी तकलीफ के आयोजन हो सके।",
+                "question_English": "How is the administration ensuring that there are no issues for the public during worship and rituals at Hazaribagh Lake and Chhath Talab premises?",
+                "question_Hindi": "प्रशासन कैसे सुनिश्चित कर रहा है कि हजारीबाग झील और छठ तालाब परिसर में पूजा-अर्चना के दौरान जनता को कोई समस्या ना हो?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910916167,
+            "id": "97f7695f-d606-44b1-98ed-7b6d48f4a340",
+            "lastUpdateTimeUnix": 1700910916167,
+            "properties": {
+                "answer_English": "The ₹24,000 crore plan announced by Prime Minister Narendra Modi is aimed at benefiting indigenous groups nationwide. The funds will be utilized for various projects, including the inauguration of initiatives worth ₹7,200 crore in Jharkhand, covering sectors such as railways, roads, education, and coal-petroleum.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी द्वारा की गई ₹24,000 करोड़ की योजना का उद्देश्य देशभर के जनजातीय समूहों को लाभान्वित करना है। इस धन का उपयोग विभिन्न परियोजनाओं के लिए किया जाएगा, जिसमें रेलवे, सड़क, शिक्षा, और कोल-पेट्रोलियम जैसे क्षेत्रों की शुरुआत शामिल है।",
+                "question_English": "How will the ₹24,000 crore plan benefit the indigenous groups across the country?",
+                "question_Hindi": "₹24,000 करोड़ की योजना देशभर के जनजातीय समूहों को कैसे लाभ पहुंचाएगी?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910940287,
+            "id": "9c10ba42-657a-4a39-af5f-5ff5d213bf0b",
+            "lastUpdateTimeUnix": 1700910940287,
+            "properties": {
+                "answer_English": "Jayant Sinha encourages people to celebrate Diwali by making local purchases, supporting local vendors, and sharing pictures of their purchases on the #NamoApp. He emphasizes the importance of being part of the #VocalForLocal movement.",
+                "answer_Hindi": "जयंत सिन्हा लोगों को स्थानीय खरीदारी करके, स्थानीय विक्रेताओं का समर्थन करके, और अपनी खरीदारी की तस्वीरें #NamoApp पर साझा करने के लिए प्रोत्साहित करते हैं। उन्होंने #VocalForLocal आंदोलन का हिस्सा बनने के महत्व को जोर दिया है।",
+                "question_English": "How does Jayant Sinha encourage people to celebrate Diwali?",
+                "question_Hindi": "जयंत सिन्हा लोगों को दीपावली कैसे मनाने के लिए प्रोत्साहित करते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910891389,
+            "id": "a3e453f6-ef84-4cab-a1e7-6c378699b96d",
+            "lastUpdateTimeUnix": 1700910891389,
+            "properties": {
+                "answer_English": "The completion of the hockey astroturf at Sai Sports Center in Hazaribagh will benefit athletes in the region by providing them with world-class training facilities for global competitions. This initiative aims to enhance the skills and performance of athletes, contributing to their success in various sports events.",
+                "answer_Hindi": "हजारीबाग में स्थित साई स्पोर्ट्स सेंटर में हॉकी एस्ट्रोटर्फ का पूरा होना क्षेत्र के खिलाड़ियों को वैश्विक प्रतिस्पर्धा के लिए उन्नत प्रशिक्षण सुविधाएं प्रदान करके लाभान्वित करेगा। यह पहल का उद्देश्य है खिलाड़ियों के कौशल और प्रदर्शन को बढ़ावा देना, जिससे वे विभिन्न खेल के इवेंट्स में सफलता प्राप्त कर सकें।",
+                "question_English": "How will the completion of the hockey astroturf at Sai Sports Center benefit athletes in the Hazaribagh Lok Sabha region?",
+                "question_Hindi": "साई स्पोर्ट्स सेंटर में हॉकी एस्ट्रोटर्फ का पूरा होना हजारीबाग लोकसभा क्षेत्र के खिलाड़ियों को कैसे लाभान्वित करेगा?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910887104,
+            "id": "a475a010-8e42-4602-8b6f-d831099afc3a",
+            "lastUpdateTimeUnix": 1700910887104,
+            "properties": {
+                "answer_English": "The Ministry of Railways, Ministry of Road Transport and Highways, and NHAI are collaborating to expedite the completion of ongoing projects in the Hazaribagh Lok Sabha region. The discussions involved senior officials working towards providing continuous better facilities to the residents of the region.",
+                "answer_Hindi": "रेल मंत्रालय, सड़क परिवहन और राजमार्ग मंत्रालय, और एनएचएआई मिलकर हजारीबाग लोकसभा क्षेत्र में क्रियान्वित परियोजनाओं को तेजी से पूरा करने का कार्रवाई कर रहे हैं। चर्चाएं उन वरिष्ठ अधिकारियों के साथ हुई जो क्षेत्रवासियों को निरंतर बेहतर सुविधाएं प्रदान करने की कार्रवाई में कार्यरत हैं।",
+                "question_English": "How is the Ministry of Railways, Ministry of Road Transport and Highways, and NHAI collaborating to expedite the completion of ongoing projects in the Hazaribagh Lok Sabha region?",
+                "question_Hindi": "रेल मंत्रालय, सड़क परिवहन और राजमार्ग मंत्रालय, और एनएचएआई कैसे मिलकर हजारीबाग लोकसभा क्षेत्र में क्रियान्वित परियोजनाओं को तेजी से पूरा करने की कार्रवाई कर रहे हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910916167,
+            "id": "a5ddf418-d7f2-40bc-ad8e-a8fd3a6c9c3a",
+            "lastUpdateTimeUnix": 1700910916167,
+            "properties": {
+                "answer_English": "Under the leadership of Prime Minister Narendra Modi, the government has successfully delivered clean water to more than 2,50,000 households in Hazaribagh Lok Sabha through the Jal Jeevan Mission. This initiative is part of the government's commitment to ensuring access to clean and safe water for every household.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में सरकार ने जल जीवन मिशन के तहत हजारीबाग लोकसभा के 2,50,000 से अधिक घरों में सफलतापूर्वक शुद्ध जल पहुंचाया है। यह पहल सरकार के वचन का हिस्सा है कि प्रत्येक घर को स्वच्छ और सुरक्षित जल की पहुंच सुनिश्चित की जाए।",
+                "question_English": "What initiatives has the government of Prime Minister Narendra Modi taken to provide clean water in over 2,50,000 households in Hazaribagh Lok Sabha under the Jal Jeevan Mission?",
+                "question_Hindi": "मा. प्रधानमंत्री नरेंद्र मोदी जी की सरकार ने जल जीवन मिशन के तहत हजारीबाग लोकसभा के 2,50,000 से अधिक घरों में शुद्ध जल पहुंचाने के लिए कौन-कौन सी पहल की है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910923409,
+            "id": "a672d3dd-6801-4aa5-baa7-e7cc25234927",
+            "lastUpdateTimeUnix": 1700910923409,
+            "properties": {
+                "answer_English": "The Dattopant Thengadi Job Fair in Ramgarh witnessed significant participation from a large number of youth. A total of 210 youths were selected by 19 companies, and 462 youths were shortlisted for further processes. The event was organized to facilitate employment opportunities for the youth, and the efforts of Ma. Bhupender Yadav BJP, the central minister, in organizing job fairs nationwide were acknowledged and appreciated.",
+                "answer_Hindi": "रामगढ़ में आयोजित दत्तोपंत ठेंगड़ी रोजगार मेले में एक बड़ी संख्या में युवा भाग लिया। कुल 19 कंपनियों द्वारा 210 युवाओं का चयन किया गया और 462 युवाओं को आगे की प्रक्रिया के लिए शॉर्टलिस्ट किया गया। यह घटना युवाओं के लिए रोजगार के अवसर प्रदान करने के लिए आयोजित की गई थी, और मा. केंद्रीय मंत्री भूपेंद्र यादव भाजपा जी की क्षमताओं की सराहना और कृतज्ञता की गई।",
+                "question_English": "Can you provide an overview of the Dattopant Thengadi Job Fair organized in Ramgarh, highlighting the participation of a large number of youth?",
+                "question_Hindi": "रामगढ़ में आयोजित दत्तोपंत ठेंगड़ी रोजगार मेले का संक्षेपपूर्ण विवरण प्रदान कर सकते हैं, जिसमें एक बड़ी संख्या में युवा शामिल थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910926814,
+            "id": "a6fcc685-5eba-4364-aa50-30746c61c889",
+            "lastUpdateTimeUnix": 1700910926814,
+            "properties": {
+                "answer_English": "On the auspicious occasion of Diwali, wishes and blessings were extended to everyone. The significance of Diwali was emphasized as a festival that brings prosperity, abundance, and happiness to everyone's lives. A heartfelt wish was expressed for the continued blessings of Goddess Lakshmi on everyone.",
+                "answer_Hindi": "दीपावली के शुभ अवसर पर, सभी को शुभकामनाएं और आशीर्वाद मिले। दीपावली के महत्व को एक त्योहार के रूप में जो सभी के जीवन में खुशहाली, समृद्धि और खुशी लाता है, उसे जोर दिया गया। सभी के ऊपर मां लक्ष्मी की कृपा की सतत कामना की गई।",
+                "question_English": "In the context of Diwali, what wishes and blessings were extended to everyone, and how was the significance of Diwali emphasized in bringing prosperity and abundance to everyone's lives?",
+                "question_Hindi": "दीपावली के संदर्भ में, सभी को कौन-कौन सी शुभकामनाएं और आशीर्वाद मिले, और दीपावली के महत्व को सभी के जीवन में खुशहाली और समृद्धि लाने में कैसे बल प्रदान किया गया?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910909548,
+            "id": "a80217ee-8f35-4e6d-ae2f-8a10b24bdf9b",
+            "lastUpdateTimeUnix": 1700910909548,
+            "properties": {
+                "answer_English": "Participating in the Chitragupta Puja event organized by the Chitragupta Puja Samiti in Bihari Durga, Hazaribagh, was a great experience. The program honored individuals who are bringing fame to Hazaribagh in various fields.",
+                "answer_Hindi": "चित्रगुप्त पूजा समिति द्वारा बिहारी दुर्गा, हजारीबाग में आयोजित चित्रगुप्त पूजा के कार्यक्रम में शामिल होना एक शानदार अनुभव था। इस कार्यक्रम ने उन व्यक्तियों को सम्मानित किया जो विभिन्न क्षेत्रों में हजारीबाग का नाम रोशन कर रहे हैं।",
+                "question_English": "Can you share your experience of participating in the Chitragupta Puja event organized by the Chitragupta Puja Samiti in Bihari Durga, Hazaribagh?",
+                "question_Hindi": "हजारीबाग के बिहारी दुर्गा स्थान में चित्रगुप्त पूजा समिति के कार्यक्रम में शामिल होकर आप अपने अनुभव को साझा कर सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910909548,
+            "id": "a912b94e-1650-483a-a7a2-04dad12976a0",
+            "lastUpdateTimeUnix": 1700910909548,
+            "properties": {
+                "answer_English": "During the Chitragupta Puja event, I conveyed heartfelt wishes to everyone in Hazaribagh for the festive occasion. I also wished for the continuous blessings of Lord Chitragupta on everyone.",
+                "answer_Hindi": "चित्रगुप्त पूजा के कार्यक्रम के दौरान, मैंने हजारीबाग के सभी लोगों को त्योहारी अवसर के लिए हृदय से शुभकामनाएं भेजीं। मैंने भगवान चित्रगुप्त की हर किसी पर निरंतर कृपा की कामना की।",
+                "question_English": "What message did you convey to the people of Hazaribagh during the Chitragupta Puja event?",
+                "question_Hindi": "चित्रगुप्त पूजा के कार्यक्रम के दौरान आपने हजारीबाग के लोगों को कौन-कौन सी संदेश दी थीं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910882755,
+            "id": "aa4ebabd-14af-4a65-94cc-3c77321f6807",
+            "lastUpdateTimeUnix": 1700910882755,
+            "properties": {
+                "answer_English": "The construction of the Patratu Super Thermal Power Plant, with an investment of approximately ₹20,000 crores, is creating significant employment opportunities at a large scale. The plant's operation and maintenance require a skilled workforce, thus contributing to job creation.",
+                "answer_Hindi": "पतरातू सुपर थर्मल पॉवर प्लांट का निर्माण, लगभग ₹20,000 करोड़ के निवेश के साथ, बड़े स्तर पर महत्वपूर्ण रोजगार के अवसरों को बना रहा है। प्लांट के संचालन और रखरखाव के लिए कुशल कर्मचारी की आवश्यकता होती है, जिससे रोजगार के सृजन में योगदान हो रहा है।",
+                "question_English": "How is the Patratu Super Thermal Power Plant contributing to employment generation on a large scale?",
+                "question_Hindi": "पतरातू सुपर थर्मल पॉवर प्लांट कैसे बड़े स्तर पर रोजगार के अवसरों को बढ़ावा दे रहा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910889251,
+            "id": "adf700c5-ee63-4dba-ae1a-6f2866726c10",
+            "lastUpdateTimeUnix": 1700910889251,
+            "properties": {
+                "answer_English": "Under the leadership of Prime Minister Narendra Modi and Union Minister Nitin Gadkari, significant road development initiatives are currently underway in the Hazaribagh Lok Sabha region. The aim is to create an extensive road network that ensures smooth and safe transportation for the public, emphasizing the continuous efforts towards enhancing infrastructure in the region.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी और केंद्रीय मंत्री नितिन गडकरी के नेतृत्व में, हजारीबाग लोकसभा क्षेत्र में वर्तमान में महत्वपूर्ण सड़क विकास पहलुओं पर कार्रवाई की जा रही है। इसका उद्देश्य है एक व्यापक सड़क नेटवर्क बनाना जिससे जनता के लिए सुगम और सुरक्षित यातायात हो, और क्षेत्र में आधारविद्युत्ता में सुधार की दिशा में निरंतर प्रयास कर रहे हैं।",
+                "question_English": "What significant road development initiatives are currently underway in the Hazaribagh Lok Sabha region?",
+                "question_Hindi": "हजारीबाग लोकसभा क्षेत्र में वर्तमान में कौन-कौन से महत्वपूर्ण सड़क विकास पहलुओं पर कार्रवाई की जा रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910917740,
+            "id": "b6668881-c3e7-48b8-8ccb-979897e564e8",
+            "lastUpdateTimeUnix": 1700910917740,
+            "properties": {
+                "answer_English": "When purchasing in Badi Kagaon, Hazaribagh, the money for the lamp was given online to Nay Babu. They prefer online transactions to ensure that the earnings go directly to their Jan Dhan Yojana-linked account.",
+                "answer_Hindi": "हजारीबाग के बड़ी कगाँव में खरीददारी करते समय, दिया के पैसे को नगद नहीं बल्कि ऑनलाइन Nay बाबू को दिए गए। उन्हें ऑनलाइन लेन-देन का पसंद है ताकि उनकी कमाई सीधे उनके जनधन योजना से जुड़े खाते में जाए।",
+                "question_English": "When purchasing in Badi Kagaon, Hazaribagh, did you give the money for the lamp in cash or online?",
+                "question_Hindi": "हजारीबाग के बड़ी कगाँव में खरीददारी करते समय, आपने दिया का पैसा नगद दें या ऑनलाइन?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910910978,
+            "id": "b6b8f58c-a781-4bb3-a344-f19cf6259a5e",
+            "lastUpdateTimeUnix": 1700910910978,
+            "properties": {
+                "answer_English": "The Jatra Mela significantly contributed to fostering a sense of pride in the cultural heritage of Jharkhand. It showcased the richness and diversity of Jharkhand's culture, providing a platform for people to take pride in their traditions and celebrate their cultural identity.",
+                "answer_Hindi": "जतरा मेला ने झारखंड की सांस्कृतिक विरासत में गर्व की भावना में साम significant योगदान दिया। इसने झारखंड की सांस्कृतिक धरोहर की शान और विविधता को प्रदर्शित किया, लोगों को अपनी परंपराओं में गर्व करने और अपनी सांस्कृतिक पहचान का जश्न मनाने के लिए एक मंच प्रदान किया।",
+                "question_English": "How did the Jatra Mela contribute to fostering a sense of pride in the cultural heritage of Jharkhand?",
+                "question_Hindi": "जतरा मेला ने झारखंड की सांस्कृतिक विरासत में गर्व की भावना को कैसे बढ़ावा दिया?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910914707,
+            "id": "b766a57b-9db3-4477-b602-9d7217413428",
+            "lastUpdateTimeUnix": 1700910914707,
+            "properties": {
+                "answer_English": "During the public dialogue in Bhadaninagar Panchayat of Hazaribagh Lok Sabha, directives were given to address the issues of the local residents. These directives are crucial for resolving the problems faced by the people in the region.",
+                "answer_Hindi": "हजारीबाग लोकसभा के भदानीनगर की सांकी पंचायत में जनसंवाद के दौरान स्थानीय निवासियों की समस्याओं को निवारण के लिए निर्देश दिए गए थे। इन निर्देशों का स्थानीय लोगों के सामने आने वाली समस्याओं को सुलझाने में महत्वपूर्ण है।",
+                "question_English": "What directives were given during the public dialogue in Bhadaninagar Panchayat of Hazaribagh Lok Sabha, and what is their significance?",
+                "question_Hindi": "हजारीबाग लोकसभा के भदानीनगर की सांकी पंचायत में जनसंवाद के दौरान कौन-कौन से निर्देश दिए गए थे, और इनका क्या महत्व है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910880747,
+            "id": "b85bc9cf-f7dc-44d9-b371-2c904ec89aea",
+            "lastUpdateTimeUnix": 1700910880747,
+            "properties": {
+                "answer_English": "Certainly. Under the leadership of Honorable Prime Minister Narendra Modi, over 10 lakh Ayushman cards have been issued in Hazaribagh Lok Sabha as part of the Ayushman Bharat Yojana, ensuring that no one in the region is deprived of medical treatment due to a lack of funds.",
+                "answer_Hindi": "बिल्कुल। मा. प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में, हजारीबाग लोकसभा में आयुष्मान भारत योजना के तहत 10 लाख से अधिक आयुष्मान कार्ड जारी किए गए हैं, जिससे क्षेत्र में किसी भी व्यक्ति को धन की कमी के कारण चिकित्सा से वंचित नहीं होने पाएगा।",
+                "question_English": "Can you elaborate on the implementation of the Ayushman Bharat Yojana in Hazaribagh Lok Sabha, where more than 10 lakh Ayushman cards were issued?",
+                "question_Hindi": "हजारीबाग लोकसभा में आयुष्मान भारत योजना के अंतर्गत 10 लाख से अधिक आयुष्मान कार्ड जारी होने के बारे में और अधिक जानकारी दें।"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910921120,
+            "id": "b96b03aa-22e6-4cbf-b402-551c50944aae",
+            "lastUpdateTimeUnix": 1700910921120,
+            "properties": {
+                "answer_English": "On the occasion of Dhanteras and Diwali, I engaged in a dialogue with the residents of 5 panchayats in Badi Kagaon, Hazaribagh Lok Sabha, to address and resolve issues. The discussions focused on various challenges faced by the community, and directions were provided for their resolution. Additionally, festive greetings were extended to everyone, encouraging local purchases from the local vendors. The emphasis on #VocalForLocal, as advocated by Prime Minister Narendra Modi, has been embraced by the people, and it's commendable that every transaction is now happening within seconds through UPI, even in rural areas.",
+                "answer_Hindi": "धनतेरस और दीपावली के अवसर पर, मैंने हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड की 5 पंचायतों के निवासियों के साथ जनसंवाद किया ताकि समस्याओं का समाधान हो सके। चर्चाएं समुदाय द्वारा किए जा रहे विभिन्न चुनौतियों पर केंद्रित थीं, और उनके समाधान के लिए मार्गदर्शन प्रदान किया गया। साथ ही, सभी को त्योहारों की शुभकामनाएं दी गई और स्थानीय विक्रेताओं से खरीदारी की समर्थन की गई। प्रधानमंत्री नरेंद्र मोदी जी द्वारा #VocalForLocal के प्रमोशन पर जोर देने का परिणामस्वरूप लोगों ने इसे अपना लिया है, और यह सराहनीय है कि अब हर लेन-देन कुछ ही सेकंडों में यूपीआई के माध्यम से हो रहा है, ग्रामीण क्षेत्रों में भी।",
+                "question_English": "On the occasion of Dhanteras and Diwali, you engaged in a dialogue with the residents of 5 panchayats in Badi Kagaon, Hazaribagh Lok Sabha, to address and resolve issues. Can you share the key highlights of the discussions and the outcomes?",
+                "question_Hindi": "धनतेरस और दीपावली के अवसर पर, आपने हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड की 5 पंचायतों के निवासियों के साथ जनसंवाद किया ताकि समस्याओं का समाधान हो सके। कृपया चर्चाओं और परिणामों की मुख्य बातें साझा करें।"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910914707,
+            "id": "ba3d7744-e31b-490d-ad0b-99b8a57f1d51",
+            "lastUpdateTimeUnix": 1700910914707,
+            "properties": {
+                "answer_English": "The residents express gratitude for the continuous benefits of the Modi government's schemes, thanking Prime Minister Narendra Modi for the ongoing advantages. They acknowledge the consistent advantages provided through various initiatives.",
+                "answer_Hindi": "निवासी लोग मोदी सरकार की योजनाओं के निरंतर लाभ के लिए कृतज्ञता व्यक्त करते हैं, प्रधानमंत्री नरेंद्र मोदी को चल रहे लाभ के लिए धन्यवाद देते हैं। उन्होंने विभिन्न पहलुओं के माध्यम से प्रदान किए जा रहे संघर्षों को स्वीकृत किया है।",
+                "question_English": "How do the residents feel about the continuous benefits of the Modi government's schemes, and what message do they have for Prime Minister Narendra Modi?",
+                "question_Hindi": "मोदी सरकार की योजनाओं के निरंतर लाभ से निवासियों का कैसा अनुभव है, और प्रधानमंत्री नरेंद्र मोदी के लिए उनका क्या संदेश है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910928822,
+            "id": "ba567b71-f97f-4135-a10f-6cf22a79ad82",
+            "lastUpdateTimeUnix": 1700910928822,
+            "properties": {
+                "answer_English": "The Ujjwala Yojana has brought about a significant change in the lives of the women beneficiaries in the Hazaribagh Lok Sabha by providing them with free gas connections and stoves. This initiative has granted them freedom from traditional cooking methods, and they are now experiencing time savings.",
+                "answer_Hindi": "उज्ज्वला योजना ने हजारीबाग लोकसभा में स्त्री लाभार्थियों के जीवन में महत्वपूर्ण परिवर्तन लाया है, उन्हें मुफ्त गैस कनेक्शन और चूल्हा प्रदान करके। इस पहल ने उन्हें पारंपरिक वायुमंडल से मुक्ति प्रदान की है, और उन्हें अब समय की बचत का अनुभव हो रहा है।",
+                "question_English": "In what ways has the Ujjwala Yojana brought about a significant change in the lives of the women beneficiaries?",
+                "question_Hindi": "उज्ज्वला योजना ने लाभार्थियों के जीवन में किस प्रकार के महत्वपूर्ण परिवर्तन लाया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910923409,
+            "id": "c3d83037-570d-4761-94c9-5cbb6e7701d7",
+            "lastUpdateTimeUnix": 1700910923409,
+            "properties": {
+                "answer_English": "The use of UPI for transactions has become a marvel of the Modi government, enabling swift and convenient payments even in rural areas. Every transaction, including those in rural areas, now occurs within seconds through UPI, showcasing the government's commitment to enhancing digital transactions and financial inclusion.",
+                "answer_Hindi": "लेन-देन के लिए यूपीआई का उपयोग मोदी सरकार के लिए एक आश्चर्य बन गया है, जिससे ग्रामीण क्षेत्रों में भी शीघ्र और सुविधाजनक भुगतान संभावित है। अब हर लेन-देन, सहित ग्रामीण क्षेत्रों में, कुछ ही सेकंडों में हो रहा है, जिससे सरकार का संकल्प डिजिटल लेन-देन और वित्तीय समावेश को बढ़ावा देने की दिशा में साबित हो रहा है।",
+                "question_English": "Can you elaborate on how the use of UPI for transactions has become a marvel of the Modi government, enabling swift and convenient payments, even in rural areas?",
+                "question_Hindi": "यह बताएं कि लेन-देन के लिए यूपीआई का उपयोग कैसे मोदी सरकार के लिए एक आश्चर्य बन गया है, जो ग्रामीण क्षेत्रों में भी शीघ्र और सुविधाजनक भुगतान संभावित बना रहा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910910979,
+            "id": "c6241be2-fc09-4b9e-9fb5-afd028ee1274",
+            "lastUpdateTimeUnix": 1700910910979,
+            "properties": {
+                "answer_English": "The Jatra Mela holds significant importance in showcasing the strength of Adivasi culture. It serves as a powerful identity marker for the Adivasi community, celebrating their traditions and contributing to the cultural richness of Jharkhand.",
+                "answer_Hindi": "जतरा मेला आदिवासी सांस्कृतिक की शक्ति को प्रदर्शित करने में महत्वपूर्ण भूमिका निभाता है। यह आदिवासी समुदाय के लिए एक शक्तिशाली पहचान स्तंभ के रूप में कार्य करता है, जो उनकी परंपराओं का जश्न मनाता है और झारखंड की सांस्कृतिक समृद्धि में योगदान करता है।",
+                "question_English": "What significance does the Jatra Mela hold in showcasing the strength of Adivasi culture?",
+                "question_Hindi": "जतरा मेला में आदिवासी सांस्कृतिक की शक्ति को प्रदर्शित करने में कौन-कौन सी महत्वपूर्णता है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910941014,
+            "id": "cb820a23-aafe-458b-a176-fe9d308572d9",
+            "lastUpdateTimeUnix": 1700910941014,
+            "properties": {
+                "answer_English": "Jayant Sinha encourages citizens to vote in large numbers and motivate others to do the same, emphasizing that their votes play a crucial role in the progress and self-sufficiency of Chhattisgarh and Mizoram.",
+                "answer_Hindi": "जयंत सिन्हा ने नागरिकों को बड़ी संख्या में मतदान करने और दूसरों को भी इसे करने के लिए प्रेरित करने के लिए कहा है, जो बताते हैं कि उनके वोट छत्तीसगढ़ और मिजोरम की प्रगति और स्वायत्तता में महत्वपूर्ण भूमिका निभाते हैं।",
+                "question_English": "How does Jayant Sinha encourage citizens to contribute to the prosperity of Chhattisgarh and Mizoram through voting?",
+                "question_Hindi": "जयंत सिन्हा ने नागरिकों को छत्तीसगढ़ और मिजोरम की समृद्धि में मतदान करने के लिए कैसे प्रेरित किया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910900042,
+            "id": "cc303771-25f2-403a-8721-81326c48cc2f",
+            "lastUpdateTimeUnix": 1700910900042,
+            "properties": {
+                "answer_English": "The ongoing construction of Hazaribagh Medical College and Hospital, initiated by Honorable Prime Minister Narendra Modi, is contributing to the enhancement of healthcare infrastructure. The project aims to provide world-class medical facilities and services to the residents of the region.",
+                "answer_Hindi": "हज़ारीबाग मेडिकल कॉलेज और अस्पताल का चल रहा निर्माण, मा. प्रधानमंत्री नरेंद्र मोदी जी द्वारा शुरू किया गया, स्वास्थ्य बुनियादी संरचना को बढ़ावा देने में योगदान कर रहा है। यह परियोजना इस क्षेत्र के निवासियों को विश्वस्तरीय चिकित्सा सुविधाएं और सेवाएं प्रदान करने का उद्देश्य रखती है।",
+                "question_English": "How is the ongoing construction of Hazaribagh Medical College and Hospital contributing to the healthcare infrastructure?",
+                "question_Hindi": "हज़ारीबाग मेडिकल कॉलेज और अस्पताल का चल रहा निर्माण स्वास्थ्य बुनियादी संरचना में कैसे योगदान कर रहा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910914707,
+            "id": "ce26b36d-0ef9-49c3-8a00-aaa76dea75aa",
+            "lastUpdateTimeUnix": 1700910914707,
+            "properties": {
+                "answer_English": "Prime Minister Narendra Modi announced gifts of ₹24,000 crore for indigenous communities across the country during his visit to Jharkhand. These include the inauguration of projects worth ₹7,200 crore in Jharkhand, covering areas such as railways, roads, education, and coal-petroleum.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी ने अपने झारखंड दौरे के दौरान देशभर के जनजातीय समूहों के लिए ₹24,000 करोड़ की योजनाओं की घोषणा की। इसमें झारखंड में ₹7,200 करोड़ के परियोजनाओं का उद्घाटन शामिल है, जिसमें रेलवे, सड़क, शिक्षा, और कोल-पेट्रोलियम जैसे क्षेत्रों को समाहित किया गया है।",
+                "question_English": "What significant announcements did Prime Minister Narendra Modi make during his visit to Jharkhand?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी ने झारखंड यात्रा के दौरान कौन-कौन सी महत्वपूर्ण घोषणाएं कीं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910887104,
+            "id": "d063b738-4567-4064-9e36-6bafa4f8b73a",
+            "lastUpdateTimeUnix": 1700910887104,
+            "properties": {
+                "answer_English": "The recent important meetings of the Lok Lekha Samiti in New Delhi focused on addressing various issues related to railways, roads, and national highways associated with Hazaribagh Lok Sabha. Discussions were held with senior officials from the Ministry of Railways, Ministry of Road Transport and Highways, and NHAI to expedite the implementation of ongoing projects in the region.",
+                "answer_Hindi": "नई दिल्ली में हुई लोक लेखा समिति की हाल ही में हुई महत्वपूर्ण बैठकों में हजारीबाग लोकसभा से जुड़े विभिन्न रेल, सड़क, और राष्ट्रीय राजमार्गों से संबंधित मुद्दों को समाधान करने पर ध्यान केंद्रित था। क्षेत्र में क्रियान्वित परियोजनाओं को तेजी से पूरा करने के संबंध में मंत्रालय के वरिष्ठ अधिकारियों से चर्चा की गई।",
+                "question_English": "What were the key discussions during the recent important meetings of the Lok Lekha Samiti in New Delhi?",
+                "question_Hindi": "नई दिल्ली में हाल ही में लोक लेखा समिति की महत्वपूर्ण बैठकों में मुख्य चर्चाएं क्या थीं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910905638,
+            "id": "d2b28cf2-ebfe-47cd-9b2c-7554a4811e97",
+            "lastUpdateTimeUnix": 1700910905638,
+            "properties": {
+                "answer_English": "Participating in the Jatra Mela in Ramgarh yesterday involved enjoying traditional games and songs with our Adivasi brothers and sisters, creating memorable moments.",
+                "answer_Hindi": "कल रामगढ़ में जात्रा मेला में भाग लेने से पारंपरिक खेलों और गीतों का आनंद लेना शामिल था, जिससे यादगार पल बने।",
+                "question_English": "What cultural experiences were enjoyed by participating in the Jatra Mela in Ramgarh yesterday?",
+                "question_Hindi": "कल रामगढ़ में जात्रा मेला में भाग लेने से कौन-कौन सी सांस्कृतिक अनुभव किए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910935117,
+            "id": "d608feba-b88f-44a4-bb9e-099ee69f4e77",
+            "lastUpdateTimeUnix": 1700910935117,
+            "properties": {
+                "answer_English": "The new changes and transformations in Kashmir under the leadership of PM Narendra Modi have had a significant and positive impact on the region.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में कश्मीर में हुए नए बदलाव और परिवर्तनों का प्रभाव क्षेत्र पर महत्वपूर्ण और सकारात्मक रूप से हुआ है।",
+                "question_English": "Can you elaborate on the impact of the new changes and transformations in Kashmir led by PM Narendra Modi?",
+                "question_Hindi": "क्या आप प्रधानमंत्री नरेंद्र मोदी के नेतृत्व में कश्मीर में हुए नए बदलाव और परिवर्तन के प्रभाव पर विस्तार से चर्चा कर सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910936896,
+            "id": "dd91432b-4ada-4f45-bdca-aa221c329a20",
+            "lastUpdateTimeUnix": 1700910936896,
+            "properties": {
+                "answer_English": "Under the leadership of Honorable PM Shri Narendra Modi, 10,25,832 Ayushman cards have been issued in Hazaribagh Lok Sabha as part of the Ayushman Bharat Yojana, ensuring healthcare access for the residents.",
+                "answer_Hindi": "माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी के नेतृत्व में, हजारीबाग लोकसभा में आयुष्मान भारत योजना के अंतर्गत 10,25,832 आयुष्मान कार्ड जारी किए गए हैं, जिससे क्षेत्रवासियों को स्वास्थ्य सुविधाओं का उपयोग करने का सुनिश्चित है।",
+                "question_English": "Can you provide details about the implementation of Ayushman Bharat Yojana in Hazaribagh Lok Sabha and the number of Ayushman cards issued?",
+                "question_Hindi": "हजारीबाग लोकसभा में आयुष्मान भारत योजना के कार्यान्वयन और जारी किए गए आयुष्मान कार्ड की संख्या के बारे में विवरण प्रदान कर सकते हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910938527,
+            "id": "df4a9166-16e9-40c0-bbf0-5f54e6ddad75",
+            "lastUpdateTimeUnix": 1700910938527,
+            "properties": {
+                "answer_English": "PM Modi has fulfilled the promise of providing secure shelters for 4 crore poor brothers and sisters in Ayodhya, demonstrating his commitment to turning every dream into a reality.",
+                "answer_Hindi": "प्रधानमंत्री मोदी जी ने अयोध्या में 4 करोड़ गरीब भाई-बहनों के लिए सुरक्षित आश्रय प्रदान करने के वादे को पूरा किया है, जिससे उनकी हर ख्वाब को हकीकत में बदलने की प्रतिबद्धता दिखाई गई है।",
+                "question_English": "How has PM Modi fulfilled the promise of providing secure shelters for 4 crore poor brothers and sisters in Ayodhya?",
+                "question_Hindi": "प्रधानमंत्री मोदी जी ने अयोध्या में 4 करोड़ गरीब भाई-बहनों के लिए सुरक्षित आश्रय प्रदान करने के वादे को कैसे पूरा किया है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910930251,
+            "id": "e0bc900a-3347-464f-b58f-568d2f3bce9b",
+            "lastUpdateTimeUnix": 1700910930251,
+            "properties": {
+                "answer_English": "It is expected that the Center for Tribal Studies will play a significant role in the field of education by focusing on research related to regional and folk arts, along with initiatives for their preservation and promotion.",
+                "answer_Hindi": "आशा है कि ट्राइबल स्टडीज केंद्र क्षेत्रीय और लोक कलाओं से संबंधित अनुसंधान पर मुख्य ध्यान केंद्रित करके, उनके संरक्षण और प्रोत्साहन के प्रति पहल करके, शिक्षा के क्षेत्र में महत्वपूर्ण भूमिका निभाएगा।",
+                "question_English": "What role is the Center for Tribal Studies expected to play in the field of education?",
+                "question_Hindi": "ट्राइबल स्टडीज केंद्र से शिक्षा के क्षेत्र में कौन-कौन सी महत्वपूर्ण भूमिका अपेक्षित है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910893758,
+            "id": "e31c78e9-0b52-4e22-a558-fdd72e525ff4",
+            "lastUpdateTimeUnix": 1700910893758,
+            "properties": {
+                "answer_English": "The Modi government's initiative of providing free rations is significantly contributing to the welfare of families in Hazaribagh Lok Sabha. More than 5 lakh 25 thousand households are benefiting from this measure, ensuring that essential food supplies reach those in need. This proactive step has earned the appreciation of the local residents, emphasizing the positive impact on the community's well-being.",
+                "answer_Hindi": "मोदी सरकार द्वारा मुफ्त राशन प्रदान करने की पहल हजारीबाग लोकसभा के परिवारों के कल्याण में सार्थक योगदान कर रही है। 5 लाख 25 हजार से अधिक परिवारों को इस उपाय से लाभ हो रहा है, जिससे आवश्यक खाद्य सामग्री उन लोगों तक पहुंच रही है जो इसकी आवश्यकता में हैं। यह सक्रिय कदम ने स्थानीय निवासियों की सराहना प्राप्त की है, जिससे समुदाय की भलाइयों पर सकारात्मक प्रभाव हो रहा है।",
+                "question_English": "How is the Modi government's initiative of providing free rations contributing to the welfare of families in Hazaribagh Lok Sabha?",
+                "question_Hindi": "मोदी सरकार द्वारा मुफ्त राशन प्रदान करने के पहल कैसे हजारीबाग लोकसभा के परिवारों के कल्याण में योगदान कर रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910935117,
+            "id": "e3e76541-7a96-4f64-922f-89ef1663836f",
+            "lastUpdateTimeUnix": 1700910935117,
+            "properties": {
+                "answer_English": "Under the dynamic leadership of PM Narendra Modi, Kashmir has been a witness to new and impactful changes and transformations.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी के ऊर्जावान नेतृत्व में, कश्मीर ने नए और प्रभावी बदलाव और परिवर्तन के साक्षी बने हैं।",
+                "question_English": "How has Kashmir been a witness to new changes and transformations under the dynamic leadership of PM Narendra Modi?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी के ऊर्जावान नेतृत्व में कश्मीर कैसे नए बदलाव और परिवर्तन के साक्षी बना है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910884969,
+            "id": "e4a84754-7184-4e77-8ffa-bc0e53fe8216",
+            "lastUpdateTimeUnix": 1700910884969,
+            "properties": {
+                "answer_English": "The Ujjwala Yojana, initiated by Prime Minister Narendra Modi's government, has provided free gas connections and stoves to over 2,71,000 women in Hazaribagh Lok Sabha. This initiative has brought significant positive changes in the lives of these women, granting them freedom from traditional cooking methods and saving them valuable time.",
+                "answer_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी की सरकार द्वारा शुरू की गई उज्ज्वला योजना ने हजारीबाग लोकसभा में 2,71,000 से अधिक महिलाओं को मुफ्त गैस कनेक्शन और चूल्हा प्रदान किया है। इस पहल से इन महिलाओं के जीवन में महत्वपूर्ण सकारात्मक परिवर्तन आया है, जिससे उन्हें पारंपरिक विधियों से रसोई घर से मुक्ति मिली है और उन्हें मूल्यवान समय की बचत हो रही है।",
+                "question_English": "How has the Ujjwala Yojana, implemented by Prime Minister Narendra Modi's government, impacted the lives of more than 2,71,000 women in Hazaribagh Lok Sabha?",
+                "question_Hindi": "प्रधानमंत्री नरेंद्र मोदी जी की सरकार द्वारा शुरू की गई उज्ज्वला योजना ने हजारीबाग लोकसभा में 2,71,000 से अधिक महिलाओं के जीवन पर कैसा प्रभाव डाला है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910904118,
+            "id": "e8ff71f5-bfe5-40d5-aedb-a7fef0060872",
+            "lastUpdateTimeUnix": 1700910904118,
+            "properties": {
+                "answer_English": "During the welcome of Prime Minister Narendra Modi at Ranchi Airport, there were several significant moments shared with other respected Members of Parliament.",
+                "answer_Hindi": "रांची एयरपोर्ट पर मा. प्रधानमंत्री Narendra Modi जी के स्वागत के दौरान, कई महत्वपूर्ण पल अन्य सम्माननीय सांसदों के साथ साझा किए गए थे।",
+                "question_English": "What were some key moments during the welcome of Prime Minister Narendra Modi at Ranchi Airport with other respected MPs?",
+                "question_Hindi": "मा. प्रधानमंत्री Narendra Modi जी के रांची एयरपोर्ट पर स्वागत के दौरान कुछ महत्वपूर्ण पल क्या थे जो अन्य सम्माननीय सांसदों के साथ साझा किए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910889251,
+            "id": "e9ce618f-c9c5-4a73-b59c-53d9d2b19042",
+            "lastUpdateTimeUnix": 1700910889251,
+            "properties": {
+                "answer_English": "The recent meeting in New Delhi focused on expediting the completion of ongoing projects in Hazaribagh Lok Sabha, with discussions covering various aspects, including road safety. The senior officials discussed necessary steps to control incidents in the Chuttupalu Ghati of Ramgarh. Under the leadership of Prime Minister Narendra Modi and Union Minister Nitin Gadkari, extensive road development work is underway in the Hazaribagh Lok Sabha region, aiming to create a smooth and safe transportation network for the public.",
+                "answer_Hindi": "नई दिल्ली में हुई हाल की बैठक में हजारीबाग लोकसभा में योजनाओं को तेजी से पूरा करने पर मुख्य बल दिया गया, जिसमें सड़क सुरक्षा सहित विभिन्न पहलुओं पर चर्चा हुई। वरिष्ठ पदाधिकारी ने रामगढ़ की चुट्टूपालू घाटी में हो रही घटनाओं को नियंत्रित करने के लिए आवश्यक कदमों पर चर्चा की। प्रधानमंत्री नरेंद्र मोदी और केंद्रीय मंत्री नितिन गडकरी के नेतृत्व में, हजारीबाग लोकसभा क्षेत्र में व्यापक सड़क विकास कार्य जारी है, जिसका उद्देश्य जनता के लिए सुगम और सुरक्षित यातायात नेटवर्क बनाना है।",
+                "question_English": "What were the key points discussed during the recent meeting in New Delhi between the Ministry of Road Transport and Highways, Government of India, and the National Highways Authority of India (NHAI) senior officials regarding the implementation of projects in Hazaribagh Lok Sabha?",
+                "question_Hindi": "नई दिल्ली में हाल ही में हुए Ministry of Road Transport and Highways, Government of India और National Highways Authority of India (NHAI) के वरिष्ठ पदाधिकारियों के बीच बैठक में हजारीबाग लोकसभा में योजनाओं के क्रियान्वित करने और सड़क सुरक्षा सहित अन्य मुद्दों पर कौन-कौन से प्रमुख बिंदु चर्चा हुई?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910913103,
+            "id": "eb3736d1-56fc-4c35-bb0b-b4aaec76d10e",
+            "lastUpdateTimeUnix": 1700910913103,
+            "properties": {
+                "answer_English": "The goal of the PM Kisan Samman Nidhi scheme is to provide direct financial assistance to small and marginal farmers. It aims to ensure a minimum income for them and promote sustainable agriculture. The scheme has been contributing significantly to the welfare of farmers by providing them with regular financial support.",
+                "answer_Hindi": "पीएम किसान सम्मान निधि योजना का उद्देश्य छोटे और सीमांत किसानों को सीधी आर्थिक सहायता प्रदान करना है। इसका उद्देश्य उनके लिए एक न्यूनतम आय सुनिश्चित करना है और सतत कृषि को प्रोत्साहित करना है। यह योजना किसानों के कल्याण में नियमित आर्थिक समर्थन प्रदान करके उनके लाभ में सार्थक योगदान कर रही है।",
+                "question_English": "What is the goal of the PM Kisan Samman Nidhi scheme, and how is it contributing to the welfare of farmers?",
+                "question_Hindi": "पीएम किसान सम्मान निधि योजना का उद्देश्य क्या है, और यह किसानों के कल्याण में कैसे योगदान कर रही है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910932039,
+            "id": "f2f66089-c819-4489-8278-5fe186c93039",
+            "lastUpdateTimeUnix": 1700910932039,
+            "properties": {
+                "answer_English": "To avoid any inconvenience to the residents, thorough inspections and surveys have been conducted for the construction of the Giddi Bridge in Ramgarh. The construction work will be initiated soon, and continuous efforts are being made to minimize any potential difficulties.",
+                "answer_Hindi": "क्षेत्रवासियों को किसी प्रकार की असुविधा से बचाने के लिए, गिद्दी पुल के निर्माण के लिए विस्तृत निरीक्षण और सर्वे किए गए हैं। पुल का निर्माण कार्य जल्द ही शुरू होगा, और किसी भी संभावित कठिनाइयों को कम करने के लिए सतत प्रयासरत की जा रही है।",
+                "question_English": "What steps are being taken to ensure that the construction of the Giddi Bridge in Ramgarh does not cause inconvenience to the residents?",
+                "question_Hindi": "रामगढ़ में गिद्दी पुल के निर्माण से क्षेत्रवासियों को किसी प्रकार की असुविधा न हो, इस सुनिश्चित करने के लिए कौन-कौन सी कदम उठाए जा रहे हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910925060,
+            "id": "f54f5d0a-d4ac-4fcd-a5c6-20cc4a227de5",
+            "lastUpdateTimeUnix": 1700910925060,
+            "properties": {
+                "answer_English": "A public dialogue was conducted at the residence in Hazaribagh, addressing and resolving the issues raised by the public from across the region. Specific directives were given to tackle and find solutions to the problems faced by the people, demonstrating a commitment to resolving the challenges faced by the community.",
+                "answer_Hindi": "हजारीबाग में आवास पर जनसंवाद किया गया, जिसमें क्षेत्र भर से आई जनता की समस्याओं के निवारण के लिए निर्देश दिए गए। लोगों के सामने आने वाली समस्याओं के समाधान के लिए विशिष्ट मार्गदर्शन प्रदान किया गया, जो समुदाय के सामने आने वाली चुनौतियों के समाधान के प्रति प्रतिबद्धता को दर्शाता है।",
+                "question_English": "Could you share insights into the public dialogue held at the residence in Hazaribagh? What specific directives were given to address and resolve the issues raised by the public from across the region?",
+                "question_Hindi": "हजारीबाग में आवास पर किए गए जनसंवाद की जानकारी साझा कर सकते हैं? क्षेत्र भर से आई जनता की समस्याओं के निवारण के लिए कौन-कौन से निर्देश दिए गए थे?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910923409,
+            "id": "f79e0228-a1bc-4852-9186-71bbf790e14d",
+            "lastUpdateTimeUnix": 1700910923409,
+            "properties": {
+                "answer_English": "The people in Badi Kagaon, Hazaribagh Lok Sabha, have responded positively to the call for #VocalForLocal by Prime Minister Narendra Modi, especially in terms of local purchases during the festivals. The emphasis on supporting local vendors and businesses has resonated with the community, leading to increased participation in local markets during the festive season.",
+                "answer_Hindi": "हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड के लोगों ने प्रधानमंत्री नरेंद्र मोदी जी के #VocalForLocal के आह्वान का सकारात्मक प्रतिसाद दिया है, खासकर त्योहारों के दौरान स्थानीय खरीदारी के संदर्भ में। स्थानीय विक्रेताओं और व्यापारों का समर्थन करने पर जोर देने से समुदाय में सहभागिता में वृद्धि हुई है, विशेषकर त्योहारी सीज़न में।",
+                "question_English": "How have the people in Badi Kagaon, Hazaribagh Lok Sabha, responded to the call for #VocalForLocal by Prime Minister Narendra Modi, particularly in terms of local purchases during the festivals?",
+                "question_Hindi": "हजारीबाग लोकसभा स्थित बड़कागांव प्रखंड के लोगों ने प्रधानमंत्री नरेंद्र मोदी जी के #VocalForLocal के आह्वान का कैसे प्रतिसाद दिया है, खासकर त्योहारों के दौरान स्थानीय खरीदारी के संदर्भ में?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910891389,
+            "id": "f9aeffc0-e537-46be-9cfd-8d0c02c8bccc",
+            "lastUpdateTimeUnix": 1700910891389,
+            "properties": {
+                "answer_English": "Hazaribagh Lok Sabha is contributing to the continuous development of sports and athletes by investing in projects such as the construction of the hockey astroturf at Sai Sports Center. This investment aims to provide athletes with state-of-the-art training facilities, fostering their growth and success in the field of sports.",
+                "answer_Hindi": "हजारीबाग लोकसभा खेल और खिलाड़ियों के निरंतर विकास में योगदान कर रहा है, जैसे कि साई स्पोर्ट्स सेंटर में हॉकी एस्ट्रोटर्फ बनाने जैसे परियोजनाओं में निवेश करके। इस निवेश का उद्देश्य खिलाड़ियों को आधुनिक प्रशिक्षण सुविधाएं प्रदान करना है, जो उनके खेल क्षेत्र में विकास और सफलता को बढ़ावा देगा।",
+                "question_English": "How is the Hazaribagh Lok Sabha contributing to the continuous development of sports and athletes?",
+                "question_Hindi": "हजारीबाग लोकसभा कैसे खेल और खिलाड़ियों के निरंतर विकास में योगदान कर रहा है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910907567,
+            "id": "fae87efa-bfab-4a92-b124-f44d7b818206",
+            "lastUpdateTimeUnix": 1700910907567,
+            "properties": {
+                "answer_English": "The grand welcome organized by Adivasi brothers and sisters at the Jatra Mela in Patratu, Ramgarh, will always remain in my memories as a prideful moment. It showcased the culture and traditions of Jharkhand.",
+                "answer_Hindi": "पतरातू, रामगढ़ में जात्रा मेले में आदिवासी भाई-बहनों द्वारा आयोजित भव्य स्वागत मेरी स्मृतियों में सदैव एक गर्वपूर्ण क्षण के रूप में रहेगा। इसने झारखंड की सांस्कृतिक और परंपराओं को प्रदर्शित किया।",
+                "question_English": "What was the grand welcome organized by Adivasi brothers and sisters at the Jatra Mela in Patratu, Ramgarh, and how does it remain in your memories?",
+                "question_Hindi": "पतरातू, रामगढ़ में जात्रा मेले में आदिवासी भाई-बहनों द्वारा आयोजित भव्य स्वागत क्या था और यह आपकी स्मृतियों में कैसे बना है?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910921121,
+            "id": "fba4c808-f309-45a9-9359-00666d4b2b7d",
+            "lastUpdateTimeUnix": 1700910921121,
+            "properties": {
+                "answer_English": "The Modi government's emphasis on digital transactions has played a significant role in making online payments convenient during the festive season. This focus has facilitated quick and secure transactions, contributing to the ease of financial transactions for individuals.",
+                "answer_Hindi": "मोदी सरकार के डिजिटल लेन-देन पर जोर देने से ऑनलाइन भुगतान को त्योहारी सीज़न के दौरान सुविधाजनक बनाने में योगदान किया गया है। इसका मुख्य ध्यान शीघ्र और सुरक्षित लेन-देन को सुनिश्चित करने में मदद कर रहा है, व्यक्तियों के लिए वित्तीय लेन-देन की सरलता में योगदान कर रहा है।",
+                "question_English": "How has the Modi government's emphasis on digital transactions played a role in making online payments convenient during the festive season?",
+                "question_Hindi": "कैसे हैं मोदी सरकार के डिजिटल लेन-देन पर जोर देने से ऑनलाइन भुगतान को त्योहारी सीज़न के दौरान सुविधाजनक बनाने में योगदान कर रहे हैं?"
+            },
+            "vectorWeights": null
+        },
+        {
+            "class": "Bot",
+            "creationTimeUnix": 1700910910978,
+            "id": "fc86cbb3-d633-4186-bcea-305ba74b8a07",
+            "lastUpdateTimeUnix": 1700910910978,
+            "properties": {
+                "answer_English": "Participating in the Jatra Mela in Bhadaninagar Mandal, Ramgarh, celebrating the arrival of the new crop was a delightful experience. The festival is a strong identity of Adivasi culture, and I enjoyed being a part of it with Adivasi brothers and sisters. We take pride in the cultural richness of Jharkhand. Jai Hind! Jai Jharkhand!",
+                "answer_Hindi": "भदानीनगर मंडल, रामगढ़ में नई फसल के आगमन की स्वागत के रूप में कल जतरा मेले में भाग लेना एक आनंदमय अनुभव था। यह त्योहार आदिवासी सांस्कृतिक की एक मजबूत पहचान है, और मैंने इसमें आदिवासी भाई-बहनों के साथ होने का आनंद लिया। हम झारखंड के सांस्कृतिक समृद्धि पर गर्व करते हैं। जय हिंद! जय झारखंड!",
+                "question_English": "How was your experience participating in the Jatra Mela in Bhadaninagar Mandal, Ramgarh, celebrating the arrival of the new crop?",
+                "question_Hindi": "भदानीनगर मंडल, रामगढ़ में नई फसल के आगमन की स्वागत के रूप में कल जतरा मेले में भाग लेने का आपका अनुभव कैसा था?"
+            },
+            "vectorWeights": null
+        }
+    ],
+    "totalResults": 100
+}
