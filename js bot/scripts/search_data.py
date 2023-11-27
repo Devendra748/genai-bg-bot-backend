@@ -1,10 +1,10 @@
 import os
 import weaviate
 from dotenv import load_dotenv
-from textToVactor import convertTextToVectors
+from create_vector import convertTextToVectors
 
 load_dotenv()
-WEAVIATE_CLUSTER_URL = "http://afcc935cf00034eedb45a56f7cccc309-430761413.ap-south-1.elb.amazonaws.com"
+WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 WEAVIATE_CLASS_NAME = "bot"
 
 
