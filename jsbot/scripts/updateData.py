@@ -10,7 +10,9 @@ load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 WEAVIATE_CLASS_NAME = "bot"
 
-def pushDataToWeaviate(data):
+def updateDataToWeaviate(data):
+    
+
     print(data)
     # Your JSON data with a larger number of items
     print(len(data))
@@ -18,12 +20,35 @@ def pushDataToWeaviate(data):
     # Initialize Weaviate client
     client = weaviate.Client(url = WEAVIATE_CLUSTER_URL,
     timeout_config = (5, 15))
+
+
     class_obj = {
-    "class": WEAVIATE_CLASS_NAME,
-    "vectorizer": "none",
-    "moduleConfig": {}        }
-  
-    client.schema.delete_class(WEAVIATE_CLASS_NAME)
+                    "class": WEAVIATE_CLASS_NAME,
+                    "vectorizer": "none",
+                    "moduleConfig": {},
+                    "properties": [
+                        {
+                            "name": "question_English",
+                            "dataType": "text",
+                            "vectorize": True
+                        },
+                        {
+                            "name": "answer_English",
+                            "dataType": "text",
+                            "vectorize": False
+                        },
+                        {
+                            "name": "question_Hindi",
+                            "dataType": "text",
+                            "vectorize": True
+                        },
+                        {
+                            "name": "answer_Hindi",
+                            "dataType": "text",
+                            "vectorize": False
+                        }
+                                    ]
+                        }
 
     #Create the class in Weaviate
     if not client.schema.contains(class_obj):
