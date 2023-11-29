@@ -88,7 +88,7 @@ sudo service nginx restart
 Start FastAPI.
 ```
 ```bash
-python3 -m uvicorn main:app
+python3 -m uvicorn app:app
 
 ```
 Update EC2 security-group settings for your instance to allow HTTP traffic to port 80.
