@@ -7,6 +7,9 @@ from updateData import  updateDataToWeaviate
 from Delete_class import delete_weaviate_class
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return {"message":"Welcome to my js chatbot app!"}
 @app.post("/push_data_to_weaviate")
 async def push_data_to_weaviate(request: Request):
     try:
