@@ -8,9 +8,9 @@ from create_vector import convertTextToVectors
 
 load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
-WEAVIATE_CLASS_NAME = "bot"
+classname = "bot"
 
-def updateDataToWeaviate(data):
+def updateDataToWeaviate(data,classname):
     
 
     print(data)
@@ -23,7 +23,7 @@ def updateDataToWeaviate(data):
 
 
     class_obj = {
-                    "class": WEAVIATE_CLASS_NAME,
+                    "class": classname,
                     "vectorizer": "none",
                     "moduleConfig": {},
                     "properties": [
@@ -53,7 +53,7 @@ def updateDataToWeaviate(data):
     #Create the class in Weaviate
     if not client.schema.contains(class_obj):
         client.schema.create_class(class_obj)
-        print(f"Class '{WEAVIATE_CLASS_NAME}' created successfully.")
+        print(f"Class '{classname}' created successfully.")
 
 
     batch_size = 3
@@ -77,7 +77,7 @@ def updateDataToWeaviate(data):
                     vec = convertTextToVectors(d["question_English"])
                     batch.add_data_object(
                         data_object=properties,
-                        class_name=WEAVIATE_CLASS_NAME,
+                        class_name=classname,
                      
                         vector=vec[0]
                     )

@@ -8,10 +8,11 @@ from create_vector import convertTextToVectors
 
 load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
-WEAVIATE_CLASS_NAME = "bot"
 
-def pushDataToWeaviate(data):
-    print(data)
+def pushDataToWeaviate(data,classname):
+    print(classname)
+    WEAVIATE_CLASS_NAME = classname
+    print(WEAVIATE_CLASS_NAME)
     # Your JSON data with a larger number of items
     print(len(data))
 
@@ -22,8 +23,8 @@ def pushDataToWeaviate(data):
     "class": WEAVIATE_CLASS_NAME,
     "vectorizer": "none",
     "moduleConfig": {}        }
-  
-    client.schema.delete_class(WEAVIATE_CLASS_NAME)
+
+    # client.schema.delete_class(WEAVIATE_CLASS_NAME)
 
     #Create the class in Weaviate
     if not client.schema.contains(class_obj):
@@ -44,10 +45,11 @@ def pushDataToWeaviate(data):
                 try:
                     print(f"Importing segment: {i + 1} in batch {batch_index + 1}")
                     properties = {
-                        "question_English": d["question_English"],
+                        "answer_Hindi": d["answer_Hindi"],
                         "answer_English": d["answer_English"],
                         "question_Hindi": d["question_Hindi"],
-                        "answer_Hindi": d["answer_Hindi"],
+                        "question_English": d["question_English"],
+                       
                     }
                     vec = convertTextToVectors(d["question_English"])
                     batch.add_data_object(
