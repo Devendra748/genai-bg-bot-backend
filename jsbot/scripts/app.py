@@ -3,14 +3,62 @@ from fastapi.responses import JSONResponse
 from create_vector import convertTextToVectors
 from data_to_weaviate import pushDataToWeaviate
 from search_data import searchData
-from updateData import  updateDataToWeaviate
+from updateData import updateDataToWeaviate
 from Delete_class import delete_weaviate_class
 from openai_logic import call_openai
+from dotenv import load_dotenv
+import logging  # Add this import statement
+import sys
+import os
+from llama_index import (
+    VectorStoreIndex,
+    SimpleDirectoryReader,
+    StorageContext,
+    load_index_from_storage,
+)
+
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+
+# Load or create the llama_index
+if not os.path.exists("./storage"):
+    documents = SimpleDirectoryReader("jsdata").load_data()
+    index = VectorStoreIndex.from_documents(documents)
+    index.storage_context.persist()
+else:
+    print("Loading indexes from storage")
+    storage_context = StorageContext.from_defaults(persist_dir="./storage")
+    index = load_index_from_storage(storage_context)
+
+query_engine = index.as_query_engine()
 
 app = FastAPI()
+
+
+
 @app.get("/")
 async def root():
     return {"message":"Welcome to my  chatbot app!"}
+
+@app.post("/query_llama_index")
+async def query_llama_index_endpoint(question: str, language: str):
+    try:
+        # Use the query from your original code
+        query = f"If the answer is not in the current context simply says 'undefined': generate the response in {language} language\n {question}"
+        print('query = ', query)
+
+        response = query_engine.query(query)
+        print('response = ', response)
+
+        # Store the response in store.txt
+        with open("store.txt", "w") as file:
+            file.write(str(response))
+
+        return JSONResponse(content={"message": f"Query Response: {response}"}, status_code=200)
+    except Exception as e:
+        return JSONResponse(content={"error": str(e)}, status_code=500)
+
 
 
 @app.post("/call_openai")
@@ -83,15 +131,16 @@ async def delete_data( classname: str):
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 
-@app.post("/check_relevance")
-async def check_relevance(words: list, question: str):
+
+
+@app.get("/check_relevance")
+async def check_relevance(words: list = Query(..., title="Words"), question: str = Query(..., title="Question")):
     try:
         # Check if any word from the array is present in the question
         is_relevant = any(word.lower() in question.lower() for word in words)
-        return JSONResponse(content={"is_relevant": is_relevant}, status_code=200)
+        return {"is_relevant": is_relevant}
     except Exception as e:
-        return JSONResponse(content={"error": str(e)}, status_code=500)
-
+        return {"error": str(e)}
 
 if __name__ == "__main__":
     import uvicorn
