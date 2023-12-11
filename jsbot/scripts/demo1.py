@@ -95,12 +95,10 @@ query_engine = index.as_query_engine()
 
 @app.post("/query_llama_index")
 async def query_llama_index_endpoint(question: str):
-        # Use the query from your original code
-        language = "hindi"  # Change this to your desired language
-        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in this format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
+
+        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in JSON format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
         print('query = ', query)
 
-        # Assuming you have a function query_openai defined to get OpenAI response
         response = query_engine.query(query)
 
         print('response = ', response)
@@ -111,9 +109,6 @@ async def query_llama_index_endpoint(question: str):
 
         json_data = json.loads(json_string)
         print('json_data =',json_data)
-        print('json_data123 =',json_data['response'])
-        # print('json_data =',type(json_data.response))
-
 
         json_dataresp = json.loads(json_data['response'])
 

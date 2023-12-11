@@ -45,12 +45,10 @@ async def root():
 @app.post("/query_llama_index")
 async def query_llama_index_endpoint(question: str):
     try:
-        # Use the query from your original code
         # query = f"If the answer is not in the current context then only provide 'undefined' in response: generate the response in {language} language\n {question}"
-        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in this format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
+        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in JSON format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
         print('query = ', query)
 
-        # Assuming you have a function query_openai defined to get OpenAI response
         response = query_engine.query(query)
 
         print('response = ', response)
@@ -61,7 +59,7 @@ async def query_llama_index_endpoint(question: str):
 
         json_data = json.loads(json_string)
         print('json_data =',json_data)
-        print('json_data123 =',json_data['response'])
+
         json_dataresp = json.loads(json_data['response'])
 
         print(json_dataresp)
@@ -72,31 +70,31 @@ async def query_llama_index_endpoint(question: str):
 
 
 
-@app.post("/call_openai")
-async def call_openai_endpoint(question: str, number: int, classname: str, language: str):
-    try:
-        search_result = searchData(question, number, classname)
-        print(search_result)
+# @app.post("/call_openai")
+# async def call_openai_endpoint(question: str, number: int, classname: str, language: str):
+#     try:
+#         search_result = searchData(question, number, classname)
+#         print(search_result)
 
-        bot_data = search_result['data'].get('Get', {}).get('Testing', [])
-        if bot_data:
-            context = bot_data[0].get('question_English', '')
-            print(context)
+#         bot_data = search_result['data'].get('Get', {}).get('Testing', [])
+#         if bot_data:
+#             context = bot_data[0].get('question_English', '')
+#             print(context)
 
-            template = f"""You are an assistant for question-answering tasks. 
-            Use the following pieces of retrieved context to answer the question. 
-            If you don't know the answer, just say that you don't know. 
-            Use three sentences maximum and keep the answer concise.
-            Generate the answer in {language}.
-            Question: {question} 
-            Context: {context}  
-            Answer:
-            """
+#             template = f"""You are an assistant for question-answering tasks. 
+#             Use the following pieces of retrieved context to answer the question. 
+#             If you don't know the answer, just say that you don't know. 
+#             Use three sentences maximum and keep the answer concise.
+#             Generate the answer in {language}.
+#             Question: {question} 
+#             Context: {context}  
+#             Answer:
+#             """
 
-            resp_data = call_openai(template)
-            return JSONResponse(content={"message": f"Generated Response : {resp_data}"}, status_code=200)
-    except Exception as e:
-        return JSONResponse(content={"error": str(e)}, status_code=500)
+#             resp_data = call_openai(template)
+#             return JSONResponse(content={"message": f"Generated Response : {resp_data}"}, status_code=200)
+#     except Exception as e:
+#         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 
 
@@ -141,15 +139,6 @@ async def delete_data( classname: str):
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
-
-@app.get("/check_relevance")
-async def check_relevance(words: list = Query(..., title="Words"), question: str = Query(..., title="Question")):
-    try:
-        # Check if any word from the array is present in the question
-        is_relevant = any(word.lower() in question.lower() for word in words)
-        return {"is_relevant": is_relevant}
-    except Exception as e:
-        return {"error": str(e)}
 
 if __name__ == "__main__":
     import uvicorn
