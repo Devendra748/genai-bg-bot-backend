@@ -7,6 +7,7 @@ from updateData import updateDataToWeaviate
 from Delete_class import delete_weaviate_class
 from openai_logic import call_openai
 from dotenv import load_dotenv
+import json
 import logging  # Add this import statement
 import sys
 import os
@@ -23,7 +24,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # Load or create the llama_index
 if not os.path.exists("./storage"):
-    documents = SimpleDirectoryReader("jsdata").load_data()
+    documents = SimpleDirectoryReader("jsbotdata").load_data()
     index = VectorStoreIndex.from_documents(documents)
     index.storage_context.persist()
 else:
@@ -42,20 +43,30 @@ async def root():
     return {"message":"Welcome to my  chatbot app!"}
 
 @app.post("/query_llama_index")
-async def query_llama_index_endpoint(question: str, language: str):
+async def query_llama_index_endpoint(question: str):
     try:
         # Use the query from your original code
-        query = f"If the answer is not in the current context simply says 'undefined': generate the response in {language} language\n {question}"
+        # query = f"If the answer is not in the current context then only provide 'undefined' in response: generate the response in {language} language\n {question}"
+        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in this format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
         print('query = ', query)
 
+        # Assuming you have a function query_openai defined to get OpenAI response
         response = query_engine.query(query)
+
         print('response = ', response)
+        print(type(response))
 
-        # Store the response in store.txt
-        with open("store.txt", "w") as file:
-            file.write(str(response))
+        json_string = json.dumps(response, default=lambda o: o.__dict__, indent=2)
+        print(type(json_string))
 
-        return JSONResponse(content={"message": f"Query Response: {response}"}, status_code=200)
+        json_data = json.loads(json_string)
+        print('json_data =',json_data)
+        print('json_data123 =',json_data['response'])
+        json_dataresp = json.loads(json_data['response'])
+
+        print(json_dataresp)
+        return json_dataresp
+
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
@@ -129,8 +140,6 @@ async def delete_data( classname: str):
         return {JSONResponse(content=search_result, status_code=200),"Class 'bot' deleted successfully."}
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
-
-
 
 
 @app.get("/check_relevance")

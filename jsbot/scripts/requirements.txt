@@ -2,3 +2,8 @@ python-dotenv
 sentence_transformers~=2.2.2
 weaviate-client
 uvicorn
+pip install fastapi
+pip install llama_index
+pip install torch
+pip install langchain
+pip install openai
