@@ -43,27 +43,25 @@ async def root():
     return {"message":"Welcome to my  chatbot app!"}
 
 @app.post("/query_llama_index")
-async def query_llama_index_endpoint(question: str):
+async def query_llama_index_endpoint(question: str,language:str):
     try:
         # query = f"If the answer is not in the current context then only provide 'undefined' in response: generate the response in {language} language\n {question}"
-        query = f'''If the answer is not in the current context then only provide 'undefined' in response: generate the response in JSON format {{"question_English": "", "answer_English": "", "question_Hindi": "", "answer_Hindi": ""}}  {question}'''
+        query =  f"{question} in {language}"
         print('query = ', query)
-
+        
         response = query_engine.query(query)
 
         print('response = ', response)
-        print(type(response))
 
-        json_string = json.dumps(response, default=lambda o: o.__dict__, indent=2)
-        print(type(json_string))
+        # json_string = json.dumps(response, default=lambda o: o.__dict__, indent=2)
+        # print(type(json_string))
 
-        json_data = json.loads(json_string)
-        print('json_data =',json_data)
+        # json_data = json.loads(json_string)
+        # print('json_data =',json_data)
 
-        json_dataresp = json.loads(json_data['response'])
+        # json_dataresp = json.loads(json_data['response'])
 
-        print(json_dataresp)
-        return json_dataresp
+        return response
 
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
