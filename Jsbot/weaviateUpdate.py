@@ -7,8 +7,7 @@ import logging
 load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 
-def updateDataToWeaviate(data, classname):
-    # Configure logging
+def updateDataToWeaviate(classname,data):
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
 
