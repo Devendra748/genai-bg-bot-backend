@@ -130,20 +130,22 @@ async def search_data(payload: SearchDataPayload):
     class_name = bot_name + "_cache_" + language
     create_result =  createWeaviate(class_name)  
     print(create_result)
-    result = []
+    answer = None
+    to_cache_data = False
     if enable_cache and create_result != class_name:
-        result =  searchData(class_name, question, similarity_cutoff) 
+        answer =  searchData(class_name, question, similarity_cutoff) 
     
 
-    if  not result or  len(result) == 0:
+    if  not answer:
         query =  f"{question} in {language}"
         print('query = ', query)
-        result = get_chat_response(question, chat_history, language)
-        print('result = ', result)
+        answer = get_chat_response(question, chat_history, language)
+        to_cache_data = True
+        print('result = ', answer)
     data = [
             {
                 "question": question,
-                "answer": str(result)
+                "answer": str(answer)
             }
         ]
     maindata =  {
@@ -153,7 +155,9 @@ async def search_data(payload: SearchDataPayload):
             },
             "result" :  data
         }
-    updateDataToWeaviate(class_name, data)
+    
+    if enable_cache and to_cache_data: 
+        updateDataToWeaviate(class_name, data)
     return maindata
 
 def get_chat_response(question, chat_history, language) : 
@@ -172,8 +176,8 @@ def get_chat_response(question, chat_history, language) :
                 condense_question_prompt=custom_prompt,
                 chat_history=custom_chat_history,
                 verbose=True,)
-    result = chat_engine.chat(question)
-    return result
+    answer = chat_engine.chat(question)
+    return answer
     
     
 @app.post("/delete_data")

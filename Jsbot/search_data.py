@@ -26,12 +26,7 @@ def searchData(classname, question,cutoff):
     similarity = (1 - distance)
     print(similarity)
 
-    if similarity < float(cutoff):
-        data = []        
-    else:
+    if similarity >= float(cutoff):
         answer = response['data']['Get'][classname][0]['answer']
-        data = [ {
-            "response": answer
-        }]
-
-    return data
+        return answer
+    return None
