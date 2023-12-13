@@ -1,15 +1,19 @@
+from ast import List
+from dataclasses import Field
+from typing import Optional
 from fastapi import FastAPI, Query, Request
 from fastapi.responses import JSONResponse
 from WeaviatePush import createWeaviate
 from search_data import searchData
 from weaviateUpdate import updateDataToWeaviate
 from Delete_class import delete_weaviate_class
-from pydantic import BaseModel
 from llama_index.prompts import PromptTemplate
 from llama_index.llms import ChatMessage, MessageRole
 from llama_index.chat_engine.condense_question import (
     CondenseQuestionChatEngine,
 )
+from pydantic import BaseModel, Field
+from typing import Optional,List
 from llama_index import (
     VectorStoreIndex,
     SimpleDirectoryReader,
@@ -49,6 +53,7 @@ class ChatHistory(BaseModel):
     answer: str
 
 class SearchDataPayload(BaseModel):
+    question:str
     bot_name: str
     language: Optional[str] = Field(default="English")
     chat_history: Optional[List[ChatHistory]] = Field(default=[])
@@ -134,11 +139,11 @@ async def search_data(payload: SearchDataPayload):
         query =  f"{question} in {language}"
         print('query = ', query)
         result = get_chat_response(question, chat_history, language)
-       
+        print('result = ', result)
     data = [
             {
                 "question": question,
-                "answer": result.response
+                "answer": str(result)
             }
         ]
     maindata =  {
@@ -154,13 +159,13 @@ async def search_data(payload: SearchDataPayload):
 def get_chat_response(question, chat_history, language) : 
     custom_chat_history = []
     for chat in chat_history:
-        custom_chat_history.add(ChatMessage(
+        custom_chat_history.append(ChatMessage(
             role=MessageRole.USER,
-            content = chat["question"]
+            content = chat.question
         ))
-        custom_chat_history.add( ChatMessage(
+        custom_chat_history.append( ChatMessage(
             role=MessageRole.ASSISTANT,
-            content = chat["answer"]
+            content = chat.answer
         ))
     chat_engine = CondenseQuestionChatEngine.from_defaults(
                 query_engine=query_engine,
