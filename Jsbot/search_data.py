@@ -8,25 +8,27 @@ WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
 
 def searchData(classname, question,cutoff):
-    print(classname)
-    vectors = convertTextToVectors(question)
-    response = (
-        client.query
-        .get(classname, ["question", "answer"])
-        .with_near_vector({
-            "vector": vectors[0]})
-        .with_limit(1)
-        .with_additional(["distance"])
-        .do()
-    )
+    try:
+        print(classname)
+        vectors = convertTextToVectors(question)
+        response = (
+            client.query
+            .get(classname, ["question", "answer"])
+            .with_near_vector({
+                "vector": vectors[0]})
+            .with_limit(1)
+            .with_additional(["distance"])
+            .do()
+        )
     
 
-    # Extract the distance value from the response
-    distance = response['data']['Get'][classname][0]['_additional']['distance']
-    similarity = (1 - distance)
-    print(similarity)
+        # Extract the distance value from the response
+        distance = response['data']['Get'][classname][0]['_additional']['distance']
+        similarity = (1 - distance)
+        print(similarity)
 
-    if similarity >= float(cutoff):
-        answer = response['data']['Get'][classname][0]['answer']
-        return answer
-    return None
+        if similarity >= float(cutoff):
+            answer = response['data']['Get'][classname][0]['answer']
+            return answer
+    except:
+        return None
