@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+ENV/
+
+# Compiled Python files
+*.pyc
+
+# setuptools
+*.egg-info/
+dist/
+build/
+
+# dotenv
+.env
