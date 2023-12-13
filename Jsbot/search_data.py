@@ -7,7 +7,7 @@ load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
 
-def searchData(classname, question,number):
+def searchData(classname, question,cutoff):
     print(classname)
     vectors = convertTextToVectors(question)
     response = (
@@ -23,15 +23,15 @@ def searchData(classname, question,number):
 
     # Extract the distance value from the response
     distance = response['data']['Get'][classname][0]['_additional']['distance']
-    similarity = (1 - distance) * 100
+    similarity = (1 - distance)
     print(similarity)
 
-    if similarity < float(number):
-        data = []
-    elif distance is None:
-        data = response
-        
+    if similarity < float(cutoff):
+        data = []        
     else:
-        data = response
+        answer = response['data']['Get'][classname][0]['answer']
+        data = [ {
+            "response": answer
+        }]
 
     return data
