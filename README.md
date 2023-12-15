@@ -1,99 +1,58 @@
-# FastAPI 
-FastAPI application that provides two endpoints for interacting with Weaviate: one for pushing data to Weaviate (/push_data_to_weaviate) and another for searching data (/search_data). Here's a brief summary of your code:
+# Project Title
 
-Data Format: You have a list of dictionaries (json_sets) representing pairs of questions and answers in English and Hindi.
+## Description
 
-FastAPI App: You've created a FastAPI application (app), and you define two endpoints:
+This project is a FastAPI-based chatbot application that integrates with Weaviate for data storage and retrieval. It leverages the OpenAI GPT-3.5 model for natural language processing and Azure services for text embedding.
 
+## Project Structure
 
-Endpoints
-```base
-Push Data to Weaviate: POST /push_data_to_weaviate
+- **app.py**: FastAPI application defining API endpoints for handling queries and data deletion.
+- **checkdata.py**: Script to fetch data from Weaviate and save it to a JSON file.
+- **create_vector.py**: Script to convert text to vectors using the OpenAI GPT-3.5 model.
+- **delete_class.py**: Script to delete a class in Weaviate.
+- **delete_data_module.py**: Module for handling the deletion of data in Weaviate.
+- **llama_index_utils.py**: Utilities for setting up and using the Llama Index for chat responses.
+- **prompts.py**: Module for creating custom prompts for chat responses.
+- **search_data_module.py**: Module handling the search and retrieval of data, integrating Weaviate and the Llama Index.
+- **search_data.py**: Script for searching data in Weaviate based on vectors.
+- **.env**: Configuration file containing environment variables.
 
-Pushes data to Weaviate.
-Update Data in Weaviate: POST /update_data_to_weaviate
+## Getting Started
 
-Updates data in Weaviate.
-Search Data in Weaviate: POST /search_data
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set up the Weaviate server and Azure services as per the configuration in the `.env` file.
+3. Run the FastAPI application: `uvicorn app:app --reload`
 
-Searches data in Weaviate based on a question and number.
-Delete Data in Weaviate: POST /delete_data
+## Usage
 
-Deletes a Weaviate class.
+### API Endpoints
 
-```
-### Getting Started
+- **Root Endpoint**: `/` - Welcome message.
+- **Query Endpoint**: `/bot/query` - Post a search query to retrieve chatbot responses.
+- **Delete Data Endpoint**: `/delete_data` - Post a class name to delete data in Weaviate.
 
-   1. Clone the UI-Testing branch of this repository:
-      ```bash
-      git clone https://github.com/madgicaltechdom/jayant-sinha-chatbot
+### Scripts
 
-   2. Install the other requirements by running:
-      
-      Install requirements
-      
-      ```bash
-      pip install -r requirements.txt
-        sudo apt install uvicorn
+- **Fetching Data**: Run `checkdata.py` to fetch data from Weaviate and save it to `Fetch_data.json`.
+- **Vector Creation**: Run `create_vector.py` to convert text to vectors using the OpenAI GPT-3.5 model.
+- **Data Deletion**: Run `delete_class.py` to delete a class in Weaviate.
 
-      ```
-Or
-```bash
-pip install python-dotenv
-pip install sentence_transformers~=2.2.2
-pip install torch==1.9.0
-pip install weaviate-client
-pip install uvicorn
-```
+## Configuration
 
-### Project Structure
-- Run the command:
-    ```bash
-         uvicorn app:app --reload
+This project uses an environment configuration file (`.env`) to manage sensitive information and settings. To run the project successfully, ensure that you have a valid `.env` file with the following variables properly set:
 
-    ```
+## Weaviate Configuration
 
-# Deploying to AWS EC2
-Log into your AWS account and create an EC2 instance (t2.micro), using the latest stable Ubuntu Linux AMI.
+- `WEAVIATE_URL`: The URL of the Weaviate server (e.g., `http://example.com:8080`).
 
-SSH into the instance and run these commands to update the software repository and install our dependencies.
-```bash
-sudo apt-get update
-sudo apt install -y python3-pip nginx
-```
-Clone the FastAPI server app (or create your main.py in Python).
-```bash
-      git clone https://github.com/madgicaltechdom/jayant-sinha-chatbot
-```
-Add the FastAPI configuration to NGINX's folder. Create a file called fastapi_nginx (like the one in this repository).
-```bash
-sudo vim /etc/nginx/sites-enabled/fastapi_nginx
-```
-And put this config into the file (replace the IP address with your EC2 instance's public IP):
+## OpenAI Azure Configuration
 
-```bash
-Explain
-server {
-    listen 80;   
-    server_name <YOUR_EC2_IP>;    
-    location / {        
-        proxy_pass http://127.0.0.1:8000;    
-    }
-}
-```
-Start NGINX.
-
-```bash
-sudo service nginx restart
-Start FastAPI.
-```
-```bash
-python3 -m uvicorn app:app
-
-```
-Update EC2 security-group settings for your instance to allow HTTP traffic to port 80.
-
-Now when you visit your public IP of the instance, you should be able to access your API.
+- `OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME`: Deployment name for the OpenAI Azure GPT-3.5 Turbo model.
+- `OPENAI_AZURE_GENERATION_MODEL_NAME`: Name of the OpenAI Azure GPT-3.5 Turbo model.
+- `OPENAI_AZURE_EMBEDDING_MODEL_NAME`: Name of the OpenAI Azure Text Embedding model.
+- `OPENAI_AZURE_EMBEDDING_MODEL_DEPLOYMENT_NAME`: Deployment name for the OpenAI Azure Text Embedding model.
+- `OPENAI_AZURE_ENDPOINT`: The endpoint URL for the OpenAI Azure service (e.g., `https://openai.example.com`).
+- `OPENAI_AZURE_API_KEY`: API key for accessing the OpenAI Azure service.
+- `OPENAI_AZURE_API_VERSION`: API version for the OpenAI Azure service (e.g., `20XX-XX-XX-preview`).
 
 
-    
