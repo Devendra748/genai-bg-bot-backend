@@ -26,7 +26,7 @@ class ChatHistory(BaseModel):
 class SearchDataPayload(BaseModel):
     question: str
     bot_name: str
-    language: Optional[str] = Field(default="English")
+    language: Optional[str]
     chat_history: Optional[List[ChatHistory]] = Field(default=[])
     enable_cache: Optional[bool] = Field(default=True)
     similarity_cutoff: Optional[float] = Field(default=0.9)
