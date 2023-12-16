@@ -40,7 +40,7 @@ class SearchDataPayload(BaseModel):
     enable_cache: Optional[bool] = Field(default=True)
     similarity_cutoff: Optional[float] = Field(default=0.9)
 
-query_engine = setup_llama_index()
+
 
 
 async def search_data(payload: SearchDataPayload):
@@ -50,7 +50,7 @@ async def search_data(payload: SearchDataPayload):
     chat_history = payload.chat_history
     enable_cache = payload.enable_cache
     similarity_cutoff = payload.similarity_cutoff
-
+    
     class_name = bot_name + "_cache_" + language
     create_result = createWeaviate(class_name)
     print(create_result)
@@ -62,7 +62,7 @@ async def search_data(payload: SearchDataPayload):
     if not answer:
         query = f"{question} in {language}"
         print('query = ', query)
-        answer = get_chat_response(question, chat_history, language)
+        answer = get_chat_response(question, chat_history, language,bot_name)
         to_cache_data = True
         print('result = ', answer)
     data = [
@@ -83,7 +83,8 @@ async def search_data(payload: SearchDataPayload):
         updateDataToWeaviate(class_name, data)
     return JSONResponse(content=maindata, status_code=200)
 
-def get_chat_response(question, chat_history, language):
+def get_chat_response(question, chat_history, language,bot_name):
+    query_engine = setup_llama_index(bot_name)
     custom_chat_history = []
     if language=="Hindi":
         language="Devanagari"
@@ -110,13 +111,13 @@ def get_chat_response(question, chat_history, language):
     return answer
 
 
-async def update(request: Request, filename: str):
+async def update(request: Request, filename: str,folder: str,bot_name: str):
     try:
         # Get the text data from the request body
         data = await request.body()
         text_data = data.decode('utf-8')
         # Specify the folder to store the file
-        folder_name = "jsbotdata"  # Replace with your desired folder name
+        folder_name = folder  # Replace with your desired folder name
         folder_path = os.path.join(os.getcwd(), folder_name)
         # Create the folder if it doesn't exist
         if not os.path.exists(folder_path):
@@ -132,9 +133,9 @@ async def update(request: Request, filename: str):
                 # Create a new file and write the text data to it
                 file.write(text_data)
         client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
-        documents = SimpleDirectoryReader("jsbotdata").load_data()
+        documents = SimpleDirectoryReader(folder).load_data()
         vector_store = WeaviateVectorStore(
-        weaviate_client=client, index_name="Jsbot"
+        weaviate_client=client, index_name=bot_name
          )
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
         index = VectorStoreIndex.from_documents(

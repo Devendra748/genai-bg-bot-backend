@@ -18,8 +18,8 @@ async def delete_data_handler(classname: str):
     return await delete_data(classname)
 
 @app.post("/update-storage")
-async def update_storage_data_handler(request: Request, filename: str):
-    return await update(request, filename)
+async def update_storage_data_handler(request: Request, filename: str,folder: str,bot_name: str):
+    return await update(request, filename,folder,bot_name)
 
 
 if __name__ == "__main__":

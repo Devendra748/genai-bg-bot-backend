@@ -16,7 +16,7 @@ import weaviate
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
 
-def setup_llama_index():
+def setup_llama_index(bot_name):
     load_dotenv()
 
     llm = AzureOpenAI(
@@ -52,7 +52,7 @@ def setup_llama_index():
 
     # return index.as_query_engine()
     vector_store = WeaviateVectorStore(
-    weaviate_client=client, index_name="Jsbot"
+    weaviate_client=client, index_name=bot_name
     )
     loaded_index = VectorStoreIndex.from_vector_store(vector_store)
     query_engine = loaded_index.as_query_engine(response_mode="tree_summarize")
