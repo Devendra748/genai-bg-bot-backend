@@ -23,7 +23,7 @@ def setup_llama_index():
         engine=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
         model=os.getenv("OPENAI_AZURE_GENERATION_MODEL_NAME"),
         deployment_name=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
-        temperature=0.0,
+        temperature=0.2,
         azure_endpoint=os.getenv("OPENAI_AZURE_ENDPOINT"),
         api_key=os.getenv("OPENAI_AZURE_API_KEY"),
         api_version=os.getenv("OPENAI_AZURE_API_VERSION"),
@@ -52,7 +52,7 @@ def setup_llama_index():
 
     # return index.as_query_engine()
     vector_store = WeaviateVectorStore(
-    weaviate_client=client, index_name="JsBot"
+    weaviate_client=client, index_name="Jsbot"
     )
     loaded_index = VectorStoreIndex.from_vector_store(vector_store)
     query_engine = loaded_index.as_query_engine(response_mode="tree_summarize")

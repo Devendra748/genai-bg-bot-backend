@@ -1,8 +1,10 @@
 # search_data_module.py
 
+import os
 from typing import List, Optional
-from fastapi import HTTPException
+from fastapi import HTTPException, Request
 from fastapi.responses import JSONResponse
+from llama_index import SimpleDirectoryReader, StorageContext, VectorStoreIndex
 from pydantic import BaseModel, Field
 from WeaviatePush import createWeaviate
 from weaviateUpdate import updateDataToWeaviate
@@ -83,6 +85,10 @@ async def search_data(payload: SearchDataPayload):
 
 def get_chat_response(question, chat_history, language):
     custom_chat_history = []
+    if language=="Hindi":
+        language="Devanagari"
+    else:
+        language=language
     
     # Assuming create_custom_prompt and CondenseQuestionChatEngine functions are defined elsewhere
     custom_prompt = create_custom_prompt(language)
@@ -128,7 +134,7 @@ async def update(request: Request, filename: str):
         client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
         documents = SimpleDirectoryReader("jsbotdata").load_data()
         vector_store = WeaviateVectorStore(
-        weaviate_client=client, index_name="JsBot"
+        weaviate_client=client, index_name="Jsbot"
          )
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
         index = VectorStoreIndex.from_documents(
