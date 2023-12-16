@@ -15,6 +15,13 @@ from prompts import create_custom_prompt
 from llama_index.llms import ChatMessage, MessageRole
 from llama_index_util import setup_llama_index
 
+from llama_index.vector_stores import WeaviateVectorStore
+import weaviate
+
+
+WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
+client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
+
 
 
 
@@ -95,3 +102,47 @@ def get_chat_response(question, chat_history, language):
         verbose=True,)
     answer = chat_engine.chat(question)
     return answer
+
+
+async def update(request: Request, filename: str):
+    try:
+        # Get the text data from the request body
+        data = await request.body()
+        text_data = data.decode('utf-8')
+        # Specify the folder to store the file
+        folder_name = "jsbotdata"  # Replace with your desired folder name
+        folder_path = os.path.join(os.getcwd(), folder_name)
+        # Create the folder if it doesn't exist
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+        # Create a new file or open an existing file in append mode and write the text data to it
+        file_path = os.path.join(folder_path, filename)
+        if os.path.exists(file_path):
+            with open(file_path, 'a') as file:
+                # Append the new text_data to the existing file content
+                file.write("\n" + text_data)
+        else:
+            with open(file_path, 'w') as file:
+                # Create a new file and write the text data to it
+                file.write(text_data)
+        client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
+        documents = SimpleDirectoryReader("jsbotdata").load_data()
+        vector_store = WeaviateVectorStore(
+        weaviate_client=client, index_name="JsBot"
+         )
+        storage_context = StorageContext.from_defaults(vector_store=vector_store)
+        index = VectorStoreIndex.from_documents(
+        documents, storage_context=storage_context
+         )
+        return {"message": "Storage updated successfully"}
+    except Exception as e:
+        print(e)
+        return JSONResponse(content={"message": "Error updating storage"}, status_code=500)
+
+
+
+
+
+
+
+

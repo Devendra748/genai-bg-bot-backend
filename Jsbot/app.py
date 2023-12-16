@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from search_data_module import search_data, SearchDataPayload 
+from search_data_module import search_data, SearchDataPayload ,update
 from delete_data_module import delete_data
 
 app = FastAPI()
@@ -16,6 +16,11 @@ async def search_data_handler(payload: SearchDataPayload):
 @app.post("/delete_data")
 async def delete_data_handler(classname: str):
     return await delete_data(classname)
+
+@app.post("/update-storage")
+async def update_storage_data_handler(request: Request, filename: str):
+    return await update(request, filename)
+
 
 if __name__ == "__main__":
     import uvicorn
