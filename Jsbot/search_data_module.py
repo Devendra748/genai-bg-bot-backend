@@ -1,6 +1,8 @@
 # search_data_module.py
 
+import logging
 import os
+import sys
 from typing import List, Optional
 from fastapi import HTTPException, Request
 from fastapi.responses import JSONResponse
@@ -20,7 +22,8 @@ from llama_index_util import setup_llama_index
 from llama_index.vector_stores import WeaviateVectorStore
 import weaviate
 
-
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
 client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
 
