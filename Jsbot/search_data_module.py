@@ -92,7 +92,7 @@ async def search_data(payload: SearchDataPayload):
     similarity_cutoff = payload.similarity_cutoff
     
     # Creating a class name
-    class_name = bot_name + "_cache_test_new2"
+    class_name = bot_name + "_cache_" + language
     
     # Creating Weaviate instance
     create_result = createWeaviate(class_name)
