@@ -32,7 +32,7 @@ llm = AzureOpenAI(
         engine=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
         model=os.getenv("OPENAI_AZURE_GENERATION_MODEL_NAME"),
         deployment_name=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
-        temperature=0.2,
+        temperature=0,
         azure_endpoint=os.getenv("OPENAI_AZURE_ENDPOINT"),
         api_key=os.getenv("OPENAI_AZURE_API_KEY"),
         api_version=os.getenv("OPENAI_AZURE_API_VERSION"),
@@ -102,17 +102,17 @@ async def search_data(payload: SearchDataPayload):
     for chat in chat_history:
         custom_chat_history += f"User: {chat.question}\n"
         custom_chat_history += f"AI: {chat.answer} \n"
-    print("standalone question:", standalone_question)
     if enable_cache and create_result != class_name:
         answer = searchData(class_name, question, similarity_cutoff)
-        if answer is None:
-            standalone_question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
-            answer = searchData(class_name, standalone_question, similarity_cutoff)
+        print("answer: " ,answer)
+        if not answer:
+            question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
+            answer = searchData(class_name, question, similarity_cutoff)
             if not answer:
-                answer = get_chat_response(standalone_question, chat_history, language, bot_name)
+                answer = get_chat_response(question, chat_history, language, bot_name)
                 to_cache_data = True
-    print('result = ', answer)       
-    data = [{"question": standalone_question, "answer": str(answer)}]
+    print("question",question)
+    data = [{"question": question, "answer": str(answer)}]
     maindata = {"status": {"code": 0, "message": "success"}, "result": data}
     if enable_cache and to_cache_data:
         updateDataToWeaviate(class_name, data)
