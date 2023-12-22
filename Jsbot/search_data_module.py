@@ -32,7 +32,7 @@ llm = AzureOpenAI(
         engine=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
         model=os.getenv("OPENAI_AZURE_GENERATION_MODEL_NAME"),
         deployment_name=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
-        temperature=0.1,
+        temperature=0,
         azure_endpoint=os.getenv("OPENAI_AZURE_ENDPOINT"),
         api_key=os.getenv("OPENAI_AZURE_API_KEY"),
         api_version=os.getenv("OPENAI_AZURE_API_VERSION"),
@@ -129,9 +129,9 @@ def get_chat_response(question, chat_history, language, bot_name):
         "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
         "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first.\n"
         "First translate your full answer in {lang} language and your answer should be in {lang} language.\n"
-        "All details of the project were handled by Jayant Sinha, who is affiliated with the BJP. The project does not have any association with any other party or individual. Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
+        "Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
+        "Point to remember please do not provide information about congress party and Rahul ghandhi"
         "If you do not get answer of the query from context then simply return 'undefined'\n"
-        "If  answer is  'Empty Response' then simply return 'undefined'\n"
          "Please do not include Question in your response.\n"
          "Please provided the answer should be translated into the appropriate {lang} language.\n"
         "Query: {query_str}\n"
