@@ -116,7 +116,7 @@ async def search_data(payload: SearchDataPayload):
     print("question",question)
     data = [{"question": question, "answer": str(answer)}]
     maindata = {"status": {"code": 0, "message": "success"}, "result": data}
-    if enable_cache and to_cache_data:
+    if enable_cache and to_cache_data and answer!="undefined" and answer!="undefined.":
         updateDataToWeaviate(class_name, data)
     return JSONResponse(content=maindata, status_code=200)
 
