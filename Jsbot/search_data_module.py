@@ -32,7 +32,7 @@ llm = AzureOpenAI(
         engine=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
         model=os.getenv("OPENAI_AZURE_GENERATION_MODEL_NAME"),
         deployment_name=os.getenv("OPENAI_AZURE_GENERATION_MODEL_DEPLOYMENT_NAME"),
-        temperature=0,
+        temperature=0.1,
         azure_endpoint=os.getenv("OPENAI_AZURE_ENDPOINT"),
         api_key=os.getenv("OPENAI_AZURE_API_KEY"),
         api_version=os.getenv("OPENAI_AZURE_API_VERSION"),
@@ -102,14 +102,16 @@ async def search_data(payload: SearchDataPayload):
     for chat in chat_history:
         custom_chat_history += f"User: {chat.question}\n"
         custom_chat_history += f"AI: {chat.answer} \n"
-    if enable_cache and create_result != class_name:
+    if create_result != class_name:
         answer = searchData(class_name, question, similarity_cutoff)
         print("answer: " ,answer)
         if not answer:
             question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
             answer = searchData(class_name, question, similarity_cutoff)
+            print("question",answer)
             if not answer:
                 answer = get_chat_response(question, chat_history, language, bot_name)
+                print("question",answer)
                 to_cache_data = True
     print("question",question)
     data = [{"question": question, "answer": str(answer)}]
@@ -128,8 +130,9 @@ def get_chat_response(question, chat_history, language, bot_name):
         "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first.\n"
         "First translate your full answer in {lang} language and your answer should be in {lang} language.\n"
         "All details of the project were handled by Jayant Sinha, who is affiliated with the BJP. The project does not have any association with any other party or individual. Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
-        "If you do not get answer of the query from context then simply return 'undefined'.\n"
-         "Please do not include Question in your response or answer.\n"
+        "If you do not get answer of the query from context then simply return 'undefined'\n"
+        "If  answer is  'Empty Response' then simply return 'undefined'\n"
+         "Please do not include Question in your response.\n"
         "Query: {query_str}\n"
         "Answer: "
     )
@@ -143,8 +146,6 @@ def get_chat_response(question, chat_history, language, bot_name):
 
     # Setting up llama index
     query_engine = setup_llama_index("LlamaIndexEnglish")
-    
-    # Handling language conversion
     if language == "Hindi":
         language = "Hindi Devanagari"
     else:
