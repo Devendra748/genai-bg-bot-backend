@@ -96,53 +96,40 @@ async def search_data(payload: SearchDataPayload):
     
     # Creating Weaviate instance
     create_result = createWeaviate(class_name)
-    print(create_result)
-    
     answer = None
     to_cache_data = False
     custom_chat_history = ""
-
-    # Creating a custom chat history string
     for chat in chat_history:
         custom_chat_history += f"User: {chat.question}\n"
         custom_chat_history += f"AI: {chat.answer} \n"
-    
-    # Generating a standalone question using llm
-    standalone_question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
     print("standalone question:", standalone_question)
-    
-    # Checking if caching is enabled and create_result is not equal to class_name
     if enable_cache and create_result != class_name:
-        answer = searchData(class_name, standalone_question, similarity_cutoff)
-
-    # If no answer is found, retrieve the response using get_chat_response
-    if not answer:
-        query = f"{question}"
-        print('query = ', query)
-        answer = get_chat_response(standalone_question, chat_history, language, bot_name)
-        to_cache_data = True
-        print('result = ', answer)
-    
-    # Formatting the data for the response
+        answer = searchData(class_name, question, similarity_cutoff)
+        if answer is None:
+            standalone_question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
+            answer = searchData(class_name, standalone_question, similarity_cutoff)
+            if not answer:
+                answer = get_chat_response(standalone_question, chat_history, language, bot_name)
+                to_cache_data = True
+    print('result = ', answer)       
     data = [{"question": standalone_question, "answer": str(answer)}]
     maindata = {"status": {"code": 0, "message": "success"}, "result": data}
-
-    # If caching is enabled and new data needs to be cached, update Weaviate
     if enable_cache and to_cache_data:
         updateDataToWeaviate(class_name, data)
-    
-    # Returning the response
     return JSONResponse(content=maindata, status_code=200)
 
 def get_chat_response(question, chat_history, language, bot_name):
-    # Template for the summary
     new_summary_tmpl_str = (
         "Context information is below.\n"
         "---------------------\n"
         "{context_str}\n"
         "---------------------\n"
         "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
-        "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first,  First translate your full answer in {lang} language and give answer only in {lang} language\n"
+        "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first.\n"
+        "First translate your full answer in {lang} language and your answer should be in {lang} language.\n"
+        "All details of the project were handled by Jayant Sinha, who is affiliated with the BJP. The project does not have any association with any other party or individual. Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
+        "If you do not get answer of the query from context then simply return 'undefined'.\n"
+         "Please do not include Question in your response or answer.\n"
         "Query: {query_str}\n"
         "Answer: "
     )
