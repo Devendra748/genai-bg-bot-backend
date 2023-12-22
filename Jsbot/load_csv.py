@@ -36,7 +36,7 @@ embed_model = AzureOpenAIEmbedding(
 PagedCSVReader = download_loader("PagedCSVReader")
 
 loader = PagedCSVReader(encoding="utf-8")
-documents = loader.load_data(file=Path('/home/nafish/Desktop/test/jayant-sinha-chatbot/Jsbot/jsbotdata/Jayant Sinha Ji Work English - Sheet3.csv'))
+documents = loader.load_data(file=Path('/home/nafish/Desktop/test/jayant-sinha-chatbot/Jsbot/jsbotdata/orderd_english_data.csv'))
 service_context = ServiceContext.from_defaults(llm=llm, embed_model=embed_model)
 set_global_service_context(service_context)
 print(len(documents))
