@@ -121,20 +121,19 @@ async def search_data(payload: SearchDataPayload):
     return JSONResponse(content=maindata, status_code=200)
 
 def get_chat_response(question, chat_history, language, bot_name):
-    
     new_summary_tmpl_str = (
-        "Context information given below.\n"
+        "Context information is below.\n"
         "---------------------\n"
         "{context_str}\n"
         "---------------------\n"
-       '''The project was handled by Jayant Sinha, who is associated with the BJP.\n
-       The project has no affiliation with any other political party or individual.\n
-       Negative comments about BJP and Jayant Sinha should be avoided.\n
-       If the query is not answered in the provided context, return 'undefined'.\n
-       Given the information from multiple sources and not prior knowledge and do not include file path in your final answer.\n
-       your answer should not be in hinglish language.\n
-       Please provide the answer in bullet points and in the specified {lang}.\n
-       Please provide the answer should be translated into the appropriate {lang}'''
+        "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
+        "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first.\n"
+        "First translate your full answer in {lang} language and your answer should be in {lang} language.\n"
+        "All details of the project were handled by Jayant Sinha, who is affiliated with the BJP. The project does not have any association with any other party or individual. Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
+        "If you do not get answer of the query from context then simply return 'undefined'\n"
+        "If  answer is  'Empty Response' then simply return 'undefined'\n"
+         "Please do not include Question in your response.\n"
+         "Please provided the answer should be translated into the appropriate {lang} language.\n"
         "Query: {query_str}\n"
         "Answer: "
     )
@@ -148,10 +147,7 @@ def get_chat_response(question, chat_history, language, bot_name):
 
     # Setting up llama index
     query_engine = setup_llama_index("LlamaIndexEnglish")
-    # Creating a custom prompt
-    custom_prompt = create_custom_prompt(language)
-    
-    # Updating llama index prompts
+
     query_engine.update_prompts({"response_synthesizer:summary_template": new_summary_tmpl})
     
     # Querying the engine for the answer
