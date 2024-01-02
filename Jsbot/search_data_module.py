@@ -51,14 +51,14 @@ client = weaviate.Client(url=WEAVIATE_CLUSTER_URL )
 
 custom_prompt = PromptTemplate(
     """
-Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question in same language as follow up message given.
-​
+Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question in same language as follow up message given. If follow up question is already standalone question then dont change it.
+
 <Chat History>
 {chat_history}
-​
+
 <Follow Up Message>
 {question}
-​
+
 <Standalone question>
 """
 )
@@ -127,12 +127,8 @@ def get_chat_response(question, chat_history, language, bot_name):
         "{context_str}\n"
         "---------------------\n"
         "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
-        "Try to give answer in bullet points and prioritize it based on the recommendation amount, putting the one with the highest recommendation amount first.\n"
-        "First translate your full answer in {lang} language and your answer should be in {lang} language.\n"
-        "All details of the project were handled by Jayant Sinha, who is affiliated with the BJP. The project does not have any association with any other party or individual. Kindly refrain from making any negative comments about BJP and Jayant Sinha.\n"
-        "If you do not get answer of the query from context then simply return 'undefined'.\n"
-        "Please do not include Question and prompt instruction in your answer.\n"
         "Please provided the answer should be translated into the appropriate {lang} language.\n"
+        "Your answer should be in descriptive and give proper explanation to user query. "
         "Query: {query_str}\n"
         "Answer: "
     )
@@ -146,7 +142,7 @@ def get_chat_response(question, chat_history, language, bot_name):
     print(new_summary_tmpl)
 
     # Setting up llama index
-    query_engine = setup_llama_index("LlamaIndexEnglish")
+    query_engine = setup_llama_index(bot_name)
 
     query_engine.update_prompts({"response_synthesizer:summary_template": new_summary_tmpl})
     

@@ -12,7 +12,7 @@ from llama_index.embeddings import AzureOpenAIEmbedding
 from dotenv import load_dotenv
 
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
-client = weaviate.Client(url="http://ec2-3-111-45-171.ap-south-1.compute.amazonaws.com:8080")
+client = weaviate.Client(url="http://ec2-43-205-131-196.ap-south-1.compute.amazonaws.com:8080")
 
 load_dotenv()
 

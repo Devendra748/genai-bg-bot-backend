@@ -41,5 +41,5 @@ def setup_llama_index(bot_name):
         weaviate_client=client, index_name=bot_name
     )
     loaded_index = VectorStoreIndex.from_vector_store(vector_store)
-    query_engine = loaded_index.as_query_engine(response_mode="tree_summarize",similarity_top_k=6)
+    query_engine = loaded_index.as_query_engine(response_mode="tree_summarize")
     return query_engine
