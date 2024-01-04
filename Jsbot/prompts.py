@@ -5,9 +5,9 @@ def create_custom_prompt(language: str) -> PromptTemplate:
         f"""\
 Given a conversation (between Human and Assistant) and a follow up message from Human, \
 rewrite the message to be a standalone question that captures all relevant context \
-from the conversation.Also the standalone question should be prefixed with 'Answer in {language}.
-Don't repeat the line or words which you already mentioned answer.
-Use punctuation when provide answer and seperate the lines with punctuation.
+from the conversation. Also, the standalone question should be prefixed with 'Answer in {language}.
+Don't repeat the line or words that you already mentioned in the answer.
+Use punctuation when providing the answer and separate the lines with punctuation.
 use [
 पूर्ण विराम (Full Stop) - । or .
 कमा (Comma) - ,
