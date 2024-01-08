@@ -127,7 +127,21 @@ def get_chat_response(question, chat_history, language, bot_name):
         "{context_str}\n"
         "---------------------\n"
         "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
+        "Do not give an answer to any query other than the Bhagavad Gita; for that query, return `This question is not related to the Bhagavad Gita. Please ask a question related to the Bhagavad Gita.`."
         "Please provided the answer should be translated into the appropriate {lang} language.\n"
+        """Use punctuation when providing the answer and separate the lines with punctuation.
+        use [
+        पूर्ण विराम (Full Stop) - । or .
+        कमा (Comma) - ,
+        विसर्ग (Colon) - :
+        अंतरक्षेप (Semicolon) - ;
+        विसर्जन (Exclamation Mark) - !
+        प्रश्न चिन्ह (Question Mark) - ?
+        अनुबन्धक (Quotation Marks) - " "
+        अंध विसर्जन (Ellipsis) - ...
+        एन डैश (En Dash) - -
+        एम डैश (Em Dash) - — ]
+        punctuations."""
         "Your answer should be in descriptive and give proper explanation to user query. "
         "Query: {query_str}\n"
         "Answer: "
