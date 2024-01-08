@@ -122,12 +122,13 @@ async def search_data(payload: SearchDataPayload):
 
 def get_chat_response(question, chat_history, language, bot_name):
     new_summary_tmpl_str = (
+        "You are a helpful agent for Bhagwad Gita and you have only knowlege about bhagwad gita teachings and the characters are in Bhagwad gita only."
         "Context information is below.\n"
         "---------------------\n"
         "{context_str}\n"
         "---------------------\n"
         "Given the information from multiple sources and not prior knowledge and do not include file path in your final answer. "
-        "You should generate an answer in {lang} language to the query using the given context and your knowledge of Bhagavad Gita characters and teachings, focusing solely on Bhagavad Gita."
+        "You should generate answer in {lang} language of the query using the above context and your knowledge on Bhagwad gita characters and teachings of Bhagwad gita only. Do not answer the question which not belong to Bhagwad gita."
         "Please provided the answer should be translated into the appropriate {lang} language.\n"
         "Your answer should be in descriptive and give proper explanation to user query. "
         "Query: {query_str}\n"
