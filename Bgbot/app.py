@@ -71,14 +71,14 @@ async def add_youtube_urls(data: dict = Body(...)):
                 "question": question,
                 "urlLinks": array
             }]
-    createWeaviateYoutube('YoutubeChache')
-    updateDataToWeaviateyoutube("YoutubeChache",test)
+    createWeaviateYoutube('YoutubeChache_bgbot')
+    updateDataToWeaviateyoutube("YoutubeChache_bgbot",test)
     return {"message": "YouTube URLs added successfully"}
 
 
 @app.get("/youtube")
 async def search_youtube(query: str = Query(..., title="Search Query"), cutoff: float = Query(0.9, title="Cutoff")):
-    youtube_urls = searchDataYoutube("YoutubeChache",query, cutoff)
+    youtube_urls = searchDataYoutube("YoutubeChache_bgbot",query, cutoff)
     return {"youtube_urls": youtube_urls}
 
 if __name__ == "__main__":
