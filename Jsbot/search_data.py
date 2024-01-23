@@ -32,3 +32,34 @@ def searchData(classname, question,cutoff):
             return answer
     except:
         return None
+    
+
+def searchDataYoutube(classname, question,cutoff):
+    try:
+        print(classname)
+        vectors = convertTextToVectors(question)
+        response = (
+            client.query
+            .get(classname, ["question", "urlLinks"])
+            .with_near_vector({
+                "vector": vectors[0]})
+            .with_limit(1)
+            .with_additional(["distance"])
+            .do()
+        )
+        print()
+        print("response:",response)
+        print()    
+
+        # Extract the distance value from the response
+        distance = response['data']['Get'][classname][0]['_additional']['distance']
+        print(distance)
+        similarity = (1 - distance)
+        print(similarity)
+
+        if similarity >= float(cutoff):
+            answer = response['data']['Get'][classname][0]['urlLinks']
+            print(answer)
+            return answer
+    except:
+        return None

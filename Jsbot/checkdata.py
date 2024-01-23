@@ -5,7 +5,7 @@ import os
 import json
 import torch.nn.functional as F
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
-client = weaviate.Client(url="http://ec2-43-205-131-196.ap-south-1.compute.amazonaws.com:8080")
+client = weaviate.Client(url=WEAVIATE_CLUSTER_URL)
 
 classname = "Bgbot"
 
