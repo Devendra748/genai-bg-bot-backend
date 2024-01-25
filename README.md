@@ -56,3 +56,4 @@ This project uses an environment configuration file (`.env`) to manage sensitive
 - `OPENAI_AZURE_API_VERSION`: API version for the OpenAI Azure service (e.g., `20XX-XX-XX-preview`).
 
 
+# Genai-bhagavat-gita-bot
