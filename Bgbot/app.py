@@ -15,7 +15,12 @@ async def root():
 
 @app.post("/bot/query")
 async def search_data_handler(payload: SearchDataPayload):
-    return await search_data(payload)
+    try:
+        return await search_data(payload)
+    except Exception as e:
+        # Handle the exception here, log it, or return a default value
+        return None  # Replace with an appropriate default value or error handling
+
 
 @app.post("/delete_data")
 async def delete_data_handler(classname: str):
