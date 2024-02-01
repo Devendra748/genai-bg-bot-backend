@@ -1,3 +1,5 @@
+import newrelic.agent
+import logging
 from fastapi import FastAPI, Query, Request, UploadFile, File, Body
 from fastapi.responses import JSONResponse
 from search_data_module import search_data, SearchDataPayload ,update
@@ -7,13 +9,16 @@ from WeaviatePush import createWeaviateYoutube
 from search_data import searchDataYoutube
 from load_csv import update_weviate_with_csv
 import os
+newrelic.agent.initialize('newrelic.ini')
 app = FastAPI()
-
+app = newrelic.agent.ASGIApplicationWrapper(app)
 @app.get("/")
+@newrelic.agent.function_trace()
 async def root():
     return {"message": "Welcome to my chatbot app!"}
 
 @app.post("/bot/query")
+@newrelic.agent.function_trace()
 async def search_data_handler(payload: SearchDataPayload):
     try:
         return await search_data(payload)
@@ -23,15 +28,18 @@ async def search_data_handler(payload: SearchDataPayload):
 
 
 @app.post("/delete_data")
+@newrelic.agent.function_trace()
 async def delete_data_handler(classname: str):
     return await delete_data(classname)
 
 @app.post("/update-storage")
+@newrelic.agent.function_trace()
 async def update_storage_data_handler(request: Request, filename: str,folder: str,bot_name: str):
     return await update(request, filename,folder,bot_name)
 
 
 @app.post("/upload_csv/")
+@newrelic.agent.function_trace()
 async def create_upload_file(classname: str, file: UploadFile = File(...)):
     filename = os.path.join("Bgbotdata", file.filename)
     
@@ -44,6 +52,7 @@ async def create_upload_file(classname: str, file: UploadFile = File(...)):
     return {"message": "File uploaded successfully", "filename": file.filename}
 
 @app.post("/update_data_to_weaviate")
+@newrelic.agent.function_trace()
 async def update_data_to_weaviate(request: Request, classname: str = Query(..., title="Classname")):
     try:
         # Parse JSON data from request body
@@ -56,6 +65,7 @@ async def update_data_to_weaviate(request: Request, classname: str = Query(..., 
         return JSONResponse(content={"error": str(e)}, status_code=500)
     
 @app.post("/youtube_update")
+@newrelic.agent.function_trace()
 async def add_youtube_urls(data: dict = Body(...)):
     print(data["data"]["test"])
     question = data["data"]["test"][0]["question"]
@@ -86,6 +96,6 @@ async def search_youtube(query: str = Query(..., title="Search Query"), cutoff: 
     youtube_urls = searchDataYoutube("YoutubeChache_bgbot",query, cutoff)
     return {"youtube_urls": youtube_urls}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8000)

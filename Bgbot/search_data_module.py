@@ -17,6 +17,7 @@ from llama_index_util import setup_llama_index
 from llama_index.chat_engine.condense_question import (
     CondenseQuestionChatEngine,
 )
+
 from prompts import create_custom_prompt 
 from llama_index.llms import ChatMessage, MessageRole,AzureOpenAI
 from llama_index_util import setup_llama_index
@@ -24,7 +25,7 @@ from llama_index.embeddings import AzureOpenAIEmbedding
 from llama_index.vector_stores import WeaviateVectorStore
 import weaviate
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.basicConfig( level=logging.DEBUG)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
@@ -104,20 +105,23 @@ async def search_data(payload: SearchDataPayload):
         custom_chat_history += f"AI: {chat.answer} \n"
     if create_result != class_name:
         answer = searchData(class_name, question, similarity_cutoff)
+        logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} :: Cache Hit")
         print("answer: " ,answer)
         if not answer:
             question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
             answer = searchData(class_name, question, similarity_cutoff)
-            print("question",answer)
+            
             if not answer:
                 answer = get_chat_response(question, chat_history, language, bot_name)
-                print("question",answer)
+             
                 to_cache_data = True
     print("question",question)
     data = [{"question": question, "answer": str(answer)}]
+    logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} :: Cache missed")
     maindata = {"status": {"code": 0, "message": "success"}, "result": data}
     if enable_cache and to_cache_data and answer!="undefined" and answer!="undefined.":
         updateDataToWeaviate(class_name, data)
+        logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} : Cache updated :: databasename: {class_name}")
     return JSONResponse(content=maindata, status_code=200)
 
 def get_chat_response(question, chat_history, language, bot_name):
