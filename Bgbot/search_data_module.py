@@ -17,6 +17,7 @@ from llama_index_util import setup_llama_index
 from llama_index.chat_engine.condense_question import (
     CondenseQuestionChatEngine,
 )
+
 from prompts import create_custom_prompt 
 from llama_index.llms import ChatMessage, MessageRole,AzureOpenAI
 from llama_index_util import setup_llama_index
@@ -24,7 +25,7 @@ from llama_index.embeddings import AzureOpenAIEmbedding
 from llama_index.vector_stores import WeaviateVectorStore
 import weaviate
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.basicConfig( level=logging.DEBUG)
 logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 load_dotenv()
 WEAVIATE_CLUSTER_URL = os.getenv("WEAVIATE_URL")
@@ -50,15 +51,12 @@ embed_model = AzureOpenAIEmbedding(
 client = weaviate.Client(url=WEAVIATE_CLUSTER_URL )
 
 custom_prompt = PromptTemplate(
-    """
-Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question in same language as follow up message given. If follow up question is already standalone question then dont change it.
-
+"""
+Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question in English language as conversation given. Use correct noun in place of pronoun on creating standalone question.
 <Chat History>
 {chat_history}
-
-<Follow Up Message>
+<Follow Up Question>
 {question}
-
 <Standalone question>
 """
 )
@@ -73,7 +71,7 @@ class SearchDataPayload(BaseModel):
     question: str
     bot_name: str
     language: Optional[str]
-    chat_history: Optional[List[ChatHistory]] = Field(default=[])
+    chatHistory: Optional[List] = Field(default=[])
     enable_cache: Optional[bool] = Field(default=True)
     similarity_cutoff: Optional[float] = Field(default=0.9)
 
@@ -87,7 +85,7 @@ async def search_data(payload: SearchDataPayload):
     bot_name = payload.bot_name
     language = payload.language
     question = payload.question
-    chat_history = payload.chat_history
+    chat_history = payload.chatHistory
     enable_cache = payload.enable_cache
     similarity_cutoff = payload.similarity_cutoff
     
@@ -95,29 +93,30 @@ async def search_data(payload: SearchDataPayload):
     class_name = bot_name + "_cache_" + language
     
     # Creating Weaviate instance
-    create_result = createWeaviate(class_name)
+    create_result ="" #createWeaviate(class_name)
     answer = None
     to_cache_data = False
     custom_chat_history = ""
     for chat in chat_history:
-        custom_chat_history += f"User: {chat.question}\n"
-        custom_chat_history += f"AI: {chat.answer} \n"
+      custom_chat_history += f"User: {chat['question']}\n"
+      custom_chat_history += f"AI: {chat['answer']} \n"
     if create_result != class_name:
         answer = searchData(class_name, question, similarity_cutoff)
-        print("answer: " ,answer)
+        logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} :: Cache Hit")
+      
         if not answer:
             question = llm.predict(custom_prompt, question=question, chat_history=custom_chat_history)
             answer = searchData(class_name, question, similarity_cutoff)
-            print("question",answer)
+            
             if not answer:
                 answer = get_chat_response(question, chat_history, language, bot_name)
-                print("question",answer)
+                logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} :: Cache missed")
                 to_cache_data = True
-    print("question",question)
     data = [{"question": question, "answer": str(answer)}]
     maindata = {"status": {"code": 0, "message": "success"}, "result": data}
     if enable_cache and to_cache_data and answer!="undefined" and answer!="undefined.":
         updateDataToWeaviate(class_name, data)
+        logging.debug(f"Query_Asked:: {question} :: Answer :: {answer} : Cache updated :: databasename: {class_name}")
     return JSONResponse(content=maindata, status_code=200)
 
 def get_chat_response(question, chat_history, language, bot_name):
